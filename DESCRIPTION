@@ -1,16 +1,34 @@
 Package: veriler
-Title: What the Package Does (One Line, Title Case)
+Title: ``R for Data Science'' kitabında kullanılan verilerin Türkçe çevirileri
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Botan",
+           family = "Ağın",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+           email = "aginbotan@gmail.com",
+           comment = c(ORCID = "0000-0002-1288-9770"))
+Description: "R for Data Science" kitabında kullanılan verilerin Türkçe çevirilerini içeren bir paket. Paket içerisindeki dahili fonksiyonlar ve YAML yapıları, aynı verilerin İspanyolca çevirilerini içeren \href{https://github.com/cienciadedatos/datos/}{datos} paketinden alınmıştır. 
+License: CC0
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+URL: https://github.com/botan/veriler
+BugReports: https://github.com/botan/veriler/issues
+Depends: 
+    R (>= 3.5.0)
+Imports:
+    babynames,
+    dplyr,
+    forcats,
+    fueleconomy,
+    gapminder,
+    ggplot2,
+    Lahman,
+    nasaweather,
+    nycflights13,
+    palmerpenguins,
+    rlang,
+    tibble,
+    tidyr,
+    yaml
