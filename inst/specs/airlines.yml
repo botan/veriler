@@ -1,0 +1,17 @@
+df:
+  source: nycflights13::airlines
+  name: havayollari
+variables:
+  carrier:
+    trans: taşıyıcı_kodu
+    desc: "Taşıyı firmanın 2 harfli kısaltması"
+  name:
+    trans: ad
+    desc: "Firmanın tam adı"
+help:
+  name: havayolları
+  alias: havayolları
+  title: "Havayolu adları"
+  description: "Havayolu adlarını taşıyıcı kodlarından arayın."
+  usage: havayolları
+  format: 16 gözlem 2 değişkenden oluşan bir data.frame

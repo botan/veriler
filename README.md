@@ -20,11 +20,13 @@ remotes::install_github("botan/veriler")
 
 ## Çeviriler
 
-| İsim     | Başlık                                                                         | Paket    | Veri     |
-|:---------|:-------------------------------------------------------------------------------|:---------|:---------|
-| süsen    | Edgar Anderson’ın Süsen (Iris) çiçeği türleri verileri                         | datasets | iris     |
-| elmaslar | 50 bin adetten fazla yuvarlak kesim elmasın fiyatları                          | ggplot2  | diamonds |
-| miller   | 38 popüler otomobil modeli için 1999’dan 2008’e kadar yakıt ekonomisi verileri | ggplot2  | mpg      |
+| İsim         | Başlık                                                                         | Paket        | Veri     |
+|:-------------|:-------------------------------------------------------------------------------|:-------------|:---------|
+| süsen        | Edgar Anderson’ın Süsen (Iris) çiçeği türleri verileri                         | datasets     | iris     |
+| mt\_arabalar | Motor Trend’in Araba Yol Testleri                                              | datasets     | mtcars   |
+| elmaslar     | 50 bin adetten fazla yuvarlak kesim elmasın fiyatları                          | ggplot2      | diamonds |
+| miller       | 38 popüler otomobil modeli için 1999’dan 2008’e kadar yakıt ekonomisi verileri | ggplot2      | mpg      |
+| havayolları  | Havayolu adları                                                                | nycflights13 | airlines |
 
 ## Örnek
 
