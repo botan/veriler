@@ -1,0 +1,47 @@
+df:
+  source: ggplot2::diamonds
+  name: elmaslar
+variables:
+  carat:
+    trans: karat
+    desc: Elmasın ağırlığı (0,2-5,01 ct)
+  cut:
+    trans: kesim
+    desc: Kesim kalitesi (Vasat, İyi, Çok iyi, Birinci sınıf, İdeal)
+    values:
+      Fair: Vasat
+      Good: İyi
+      Very Good: Çok iyi
+      Premium: Birinci sınıf
+      Ideal: İdeal
+  color:
+    trans: renk
+    desc: "Elmas rengi, D'den (en iyi) J'ye (en kötü)"
+  clarity:
+    trans: berraklık
+    desc: Elmasın berraklık ölçüsü (I1 (en kötü), SI1, SI2, VS1, VS2, VVS1, VVS2, IF (en iyi))
+  depth:
+    trans: derinlik
+    desc: "Toplam derinlik yüzdesi = z / mean(x, y) = 2 * z / (x + y) (43-79)"
+  table:
+    trans: yüzey
+    desc: Elmasın düz üst yüzeyinin genişliği (43-95 mm)
+  price:
+    trans: fiyat
+    desc: Amerikan doları cinsinden fiyat (326$-18.823$)
+  x:
+    trans: x
+    desc: Uzunluk (mm)
+  y:
+    trans: y
+    desc: Genişlik (mm)
+  z:
+    trans: z
+    desc: Derinlik (mm)
+help:
+  name: elmaslar
+  alias: elmaslar
+  title: 50 bin adetten fazla yuvarlak kesim elmasın fiyatları
+  description: Neredeyse 54 bin elmasın fiyatlarını ve diğer özelliklerini içeren bir veri kümesi.
+  usage: elmaslar
+  format: 53.940 gözlem ve 10 değişkenden oluşan bir data.frame
