@@ -1,0 +1,38 @@
+df:
+  source: nycflights13::airports
+  name: havalimanlari
+variables:
+  faa:
+    trans: havalimanı_kodu
+    desc: "FAA havalimanı kodu"
+  name:
+    trans: adı
+    desc: "Havalimanı adı"
+  lat:
+    trans: enlem
+    desc: "Havalimanının konumu"
+  lon:
+    trans: boylam
+    desc: "Havalimanının konumu"
+  alt:
+    trans: irtifa
+    desc: "İrtifa (ft)"
+  tz:
+    trans: saat_dilimi
+    desc: "Greenwich'e göre saat dilimi farkı"
+  dst:
+    trans: ysu
+    desc: "Yaz saati uygulaması, Gün işiğindan daha fazla yararlanmak ve enerji tasarrufu sağlamak üzere saatlerin değiştirilmesidir.
+      A = ABD standart YSU. Mart'ın ikinci Pazar günü başlar, Kasım'ın ilk Pazar günü biter;
+      U = Bilinmiyor;
+      N = Yaz saati uygulaması yok"
+  tzone:
+    trans: saat_dilimi_iana
+    desc: "GeoNames web hizmeti tarafından belirlendiği şekliyle IANA saat dilimi"
+help:
+  name: havalimanları
+  alias: havalimanları
+  title: Havalimanları kılavuzu
+  description: "Havalimanları hakkında faydalı kılavuz veriler."
+  usage: havalimanları
+  format: 1.458 satır ve 8 sütundan oluşan bir data.frame
