@@ -1,0 +1,44 @@
+df:
+  source: datasets::mtcars
+  name: mt_arabalar
+variables:
+  mpg:
+    trans: mil
+    desc: Galon başına katedilen mil
+  cyl:
+    trans: silindir
+    desc: Silindir sayısı
+  disp:
+    trans: hacim
+    desc: "Motor hacmi"
+  hp:
+    trans: beygir
+    desc: "Brüt beygir gücü"
+  drat:
+    trans: aks
+    desc: "Aks (diferansiyel veya son dişli) oranı"
+  wt:
+    trans: ağırlık
+    desc: Ağırlık (1000 libre)
+  qsec:
+    trans: hızlanma
+    desc: Çeyrek mil katetme süresi
+  vs:
+    trans: tip
+    desc: Motor tipi (0 = V tipi, 1 = sıralı)
+  am:
+    trans: şanzıman
+    desc: "Şanzıman türü (0 = otomatik, 1 = manuel)"
+  gear:
+    trans: vites
+    desc: "İleri vites sayısı"
+  carb:
+    trans: karbüratör
+    desc: "Karbüratör sayısı"
+help:
+  name: mt_arabalar
+  alias: mt_arabalar
+  title: "Motor Trend'in Araba Yol Testleri"
+  description: "Veriler, 1974 Motor Trend US dergisinden alınmıştır ve 32 otomobil (1973–74 modelleri) için yakıt tüketimini ve otomobil tasarımı ve performansının 10 özelliğini içermektedir."
+  usage: mt_arabalar
+  format: 32 gözlem 11 değişkenden oluşan bir data.frame
