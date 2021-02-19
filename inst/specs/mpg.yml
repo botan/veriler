@@ -1,0 +1,62 @@
+df:
+  source: ggplot2::mpg
+  name: miller
+variables:
+  manufacturer:
+    trans: üretici
+    desc: Üretici firma adı
+  model:
+    trans: model
+    desc: Model adı
+  displ:
+    trans: hacim
+    desc: "Motor hacmi (litre)"
+  year:
+    trans: yıl
+    desc: Üretim yılı
+  cyl:
+    trans: silindir
+    desc: "Silindir sayısı"
+  trans:
+    trans: şanzıman
+    desc: "Şanzıman türü"
+  drv:
+    trans: çekiş
+    values:
+      f: ön
+      r: arka
+      4: 4
+    desc: "Çekiş türü (ön = önden çekiş, arka = arkadan çekiş, 4 = 4x4)"
+  cty:
+    trans: şehir
+    desc: "Şehir içi mil başına galon tüketimi"
+  hwy:
+    trans: otoyol
+    desc: "Otoyolda mil başına galon tüketimi"
+  fl:
+    trans: yakıt
+    values:
+      p: y
+      r: n
+      e: e
+      d: d
+      c: g
+    desc: Yakıt türü (y = yüksek kaliteli, n = normal, e = etanol, d = dizel, g = gaz)
+  class:
+    trans: sınıf
+    values:
+      2seater: 2 kişilik
+      compact: kompakt
+      midsize: orta boy
+      minivan: ticari
+      pickup: kamyonet
+      subcompact: küçük boy
+      suv: arazi
+    desc: Araç sınıfı
+help:
+  name: miller
+  alias: miller
+  title: "38 popüler otomobil modeli için 1999'dan 2008'e kadar yakıt ekonomisi verileri"
+  description: "Bu veri kümesi, EPA'nın https://fueleconomy.gov/ adresinde sunduğu yakıt ekonomisi verilerinin bir kısmını içerir. Yalnızca 1999 ile 2008 arasında her yıl yeni çıkan modelleri içerir - bu, arabanın popülerliğinin bir göstergesi olarak kullanılmıştır."
+  usage: miller
+  format: 234 gözlem ve 11 değişken içeren bir data.frame
