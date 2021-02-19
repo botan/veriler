@@ -1,0 +1,26 @@
+df:
+  source: datasets::iris
+  name: susen
+variables:
+  Sepal.Length:
+    trans: çanak_uzunluğu
+    desc: "Çanak yapraklarının uzunluğu"
+  Sepal.Width:
+    trans: çanak_genişliği
+    desc: "Çanak yapraklarının genişliği"
+  Petal.Length:
+    trans: taç_uzunluğu
+    desc: "Taç yapraklarının uzunluğu"
+  Petal.Width:
+    trans: taç_genişliği
+    desc: "Taç yapraklarının genişliği"
+  Species:
+    trans: tür
+    desc: "Süsen çiçeklerinin türleri (Süsen setosa, S. versicolor, S. virginica)"
+help:
+  name: süsen
+  alias: süsen
+  title: "Edgar Anderson'ın Süsen (Iris) çiçeği türleri verileri"
+  description: "Ünlü Süsen (Iris) verisi (Edgar Anderson ve Ronald Fisher) üç süsen türünün her biri için 50'şer çiçeğin, taç ve çanak yaprağı uzunluk ve genişlik ölçülerini santimetre cinsinde içerir. Bu türler Süsen setosa, S. versicolor, S. virginica olarak isimlendirilir."
+  usage: süsen
+  format: 150 gözlem ve 5 degişken içeren bir data.frame
