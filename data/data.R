@@ -10,5 +10,7 @@ delayedAssign('miller',
         eval(parse(file.path(system.file('scripts','miller.txt', package = 'veriler')))))
 delayedAssign('mt_arabalar',
         eval(parse(file.path(system.file('scripts','mt_arabalar.txt', package = 'veriler')))))
+delayedAssign('uçaklar',
+        eval(parse(file.path(system.file('scripts','ucaklar.txt', package = 'veriler')))))
 delayedAssign('hava_durumu',
         eval(parse(file.path(system.file('scripts','hava_durumu.txt', package = 'veriler')))))

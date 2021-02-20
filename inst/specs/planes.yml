@@ -1,0 +1,49 @@
+df:
+  source: nycflights13::planes
+  name: ucaklar
+variables:
+  tailnum:
+    trans: kuyruk_numarası
+    desc: "Uçak kuyruk numarası"
+  year:
+    trans: yıl
+    desc: "Üretim yılı"
+  type:
+    trans: tip
+    desc: "Uçak tipi"
+    values:
+      Fixed wing multi engine: Sabit kanatlı çok motorlu
+      Fixed wing single engine: Sabit kanatlı tek motorlu
+      Rotorcraft: Pervaneli
+  manufacturer:
+    trans: üretici
+    desc: "Üretici firma"
+  model:
+    trans: model
+    desc: "Uçağın modeli"
+  engines:
+    trans: motor_sayısı
+    desc: "Motor sayısı"
+  seats:
+    trans: koltuk_sayısı
+    desc: "Koltuk sayısı"
+  speed:
+    trans: hız
+    desc: "Mil bölü saat cinsinden ortalama seyir hızı"
+  engine:
+    trans: motor
+    desc: "Motor tipi"
+    values:
+      4 Cycle: "Dört zamanlı"
+      Reciprocating: "Pistonlu"
+      Turbo-fan: "Turbofan"
+      Turbo-jet: "Turbojet"
+      Turbo-prop: "Turboprop"
+      Turbo-shaft: "Turboşaft"
+help:
+  name: uçaklar
+  alias: uçaklar
+  title: Uçak kılavuz verileri
+  description: "FAA uçak sicilinde bulunan tüm uçak kuyruk numaraları için kılavuz verileri. American Airways (AA) ve Envoy Air (MQ) kuyruk numaraları yerine filo numaralarını bildirdikleri için eşleştirilemez."
+  usage: uçaklar
+  format: 3.322 satır ve 9 sütundan oluşan bir data.frame
