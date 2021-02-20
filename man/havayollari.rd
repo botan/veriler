@@ -2,10 +2,10 @@
 \name{havayolları}
 \alias{havayolları}
 \title{Havayolu adları}
-\format{16 gözlem 2 değişkenden oluşan bir data.frame
+\format{16 satır ve 2 sütundan oluşan bir data.frame
 \describe{
-\item{taşıyıcı_kodu}{Taşıyı firmanın 2 harfli kısaltması}
-\item{ad}{Firmanın tam adı}
+\item{havayolu_kodu}{Havayolu şirketinin 2 harfli kısaltması}
+\item{ad}{Havayolu şirketinin tam adı}
 }}
 \usage{havayolları}
 \description{Havayolu adlarını taşıyıcı kodlarından arayın.}

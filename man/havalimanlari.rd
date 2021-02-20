@@ -5,7 +5,7 @@
 \format{1.458 satır ve 8 sütundan oluşan bir data.frame
 \describe{
 \item{havalimanı_kodu}{FAA havalimanı kodu}
-\item{adı}{Havalimanı adı}
+\item{ad}{Havalimanı adı}
 \item{enlem}{Havalimanının konumu}
 \item{boylam}{Havalimanının konumu}
 \item{irtifa}{İrtifa (ft)}

@@ -3,15 +3,15 @@ df:
   name: havayollari
 variables:
   carrier:
-    trans: taşıyıcı_kodu
-    desc: "Taşıyı firmanın 2 harfli kısaltması"
+    trans: havayolu_kodu
+    desc: "Havayolu şirketinin 2 harfli kısaltması"
   name:
     trans: ad
-    desc: "Firmanın tam adı"
+    desc: "Havayolu şirketinin tam adı"
 help:
   name: havayolları
   alias: havayolları
   title: "Havayolu adları"
   description: "Havayolu adlarını taşıyıcı kodlarından arayın."
   usage: havayolları
-  format: 16 gözlem 2 değişkenden oluşan bir data.frame
+  format: 16 satır ve 2 sütundan oluşan bir data.frame

@@ -6,7 +6,7 @@ variables:
     trans: havalimanı_kodu
     desc: "FAA havalimanı kodu"
   name:
-    trans: adı
+    trans: ad
     desc: "Havalimanı adı"
   lat:
     trans: enlem
