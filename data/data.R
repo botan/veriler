@@ -4,6 +4,8 @@ delayedAssign('havalimanları',
         eval(parse(file.path(system.file('scripts','havalimanlari.txt', package = 'veriler')))))
 delayedAssign('elmaslar',
         eval(parse(file.path(system.file('scripts','elmaslar.txt', package = 'veriler')))))
+delayedAssign('uçuşlar',
+        eval(parse(file.path(system.file('scripts','ucuslar.txt', package = 'veriler')))))
 delayedAssign('süsen',
         eval(parse(file.path(system.file('scripts','susen.txt', package = 'veriler')))))
 delayedAssign('miller',

@@ -28,6 +28,7 @@ remotes::install_github("botan/veriler")
 | miller        | 38 popüler otomobil modeli için 1999’dan 2008’e kadar yakıt ekonomisi verileri | ggplot2      | mpg      |
 | havayolları   | Havayolu adları                                                                | nycflights13 | airlines |
 | havalimanları | Havalimanları kılavuzu                                                         | nycflights13 | airports |
+| uçuşlar       | Uçuşlar verisi                                                                 | nycflights13 | flights  |
 | uçaklar       | Uçak kılavuz verileri                                                          | nycflights13 | planes   |
 | hava\_durumu  | Saatlik hava durumu verisi                                                     | nycflights13 | weather  |
 

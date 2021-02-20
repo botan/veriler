@@ -1,0 +1,68 @@
+df:
+  source: nycflights13::flights
+  name: ucuslar
+variables:
+  year:
+    trans: yıl
+    desc: "Uçuş kalkış tarihi (yıl)"
+  month:
+    trans: ay
+    desc: "Uçuş kalkış tarihi (ay)"
+  day:
+    trans: gün
+    desc: "Uçuş kalkış tarihi (gün)"
+  dep_time:
+    trans: kalkış
+    desc: "Fiili kalkış saati. Yerel saate göre SSDD veya SDD formatında"
+  sched_dep_time:
+    trans: planlanan_kalkış
+    desc: "Planlanan kalkış saati. Yerel saate göre SSDD veya SDD formatında"
+  dep_delay:
+    trans: rötar_kalkış
+    desc: "Rötar süreleri (dakika). Negatif değerler erken kalkışları temsil eder"
+  arr_time:
+    trans: varış
+    desc: "Fiili varış saati. Yerel saate göre SSDD veya SDD formatında"
+  sched_arr_time:
+    trans: planlanan_varış
+    desc: "Planlanan varış saati. Yerel saate göre SSDD veya SDD formatında"
+  arr_delay:
+    trans: rötar_varış
+    desc: "Rötar süreleri (dakika). Negatif değerler erken varışları temsil eder"
+  carrier:
+    trans: havayolu_kodu
+    desc: "Havayolu şirketinin 2 harfli kısaltması. Adlarına ulaşmak için: veriler::havayolları"
+  flight:
+    trans: uçuş
+    desc: "Uçuş numarası"
+  tailnum:
+    trans: kuyruk_numarası
+    desc: "Uçak kuyruk numarası. Uçak kılavuz verileri için: veriler::uçaklar"
+  origin:
+    trans: orijin
+    desc: "Kalkış noktası. Havalimanı kılavuz verileri için: veriler::havalimanları"
+  dest:
+    trans: varış_noktası
+    desc: "Varış noktası. Havalimanı kılavuz verileri için: veriler::havalimanları"
+  air_time:
+    trans: uçuş_süresi
+    desc: "Havada geçirilen süre (dakika)"
+  distance:
+    trans: mesafe
+    desc: "Havalimanları arasındaki mesafe (mil)"
+  hour:
+    trans: saat
+    desc: "Planlanan kalkış saati"
+  minute:
+    trans: dakika
+    desc: "Planlanan kalkış dakikası"
+  time_hour:
+    trans: tarih_saat
+    desc: "POSIXct formatında planlanan uçuş tarihi ve saati. Uçuş verilerini, veriler::hava_durumu verileriyle birleştirmek için, orijin değişkeniyle birlikte kullanılabilir"
+help:
+  name: uçuşlar
+  alias: uçuşlar
+  title: Uçuşlar verisi
+  description: "2013'te NYC'den (JFK, LGA ve EWR) kalkan tüm uçuşlar için zaman verileri."
+  usage: uçuşlar
+  format: 336.776 satır ve 19 sütundan oluşan bir data.frame
