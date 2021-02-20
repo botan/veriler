@@ -1,0 +1,26 @@
+df:
+  source: ggplot2::presidential
+  name: baskanlik
+variables:
+  name:
+    trans: ad
+    desc: "Başkanın soyadı"
+  start:
+    trans: başlangıç
+    desc: "Başkanlığın başlangıç tarihi"
+  end:
+    trans: bitiş
+    desc: "Başkanlığın bitiş tarihi"
+  party:
+    trans: parti
+    desc: "Üyesi olduğu siyasi parti"
+    values:
+      Republican: Cumhuriyetçi
+      Democratic: Demokrat
+help:
+  name: başkanlık
+  alias: başkanlık
+  title: "Eisenhower'dan Obama'ya 11 başkanın dönemleri"
+  description: "Eisenhower'dan Obama'ya kadar 11 ABD başkanının ve siyasi partisinin adı, başkanlık dönemlerimin başlangıç ve bitiş tarihi."
+  usage: başkanlık
+  format: 11 satır ve 4 sütundan oluşan bir data.frame
