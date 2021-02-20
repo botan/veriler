@@ -1,0 +1,56 @@
+df:
+  source: nycflights13::weather
+  name: hava_durumu
+variables:
+  origin:
+    trans: orijin
+    desc: "Meteoroloji istasyonu. Bu değişken, veriler::uçuşlar veri tablosu ile birleştirme işlemi için kullanılabilir"
+  year:
+    trans: yıl
+    desc: "Kayıt tarihi (yıl)"
+  month:
+    trans: ay
+    desc: "Kayıt tarihi (ay)"
+  day:
+    trans: gün
+    desc: "Kayıt tarihi (gün)"
+  hour:
+    trans: saat
+    desc: "Kayıt saati"
+  temp:
+    trans: sıcaklık
+    desc: "Fahrenayt (F) cinsinden ortalama sıcaklık"
+  dewp:
+    trans: işba_sıcaklığı
+    desc: "İşba sıcaklığı: Su buharının yoğulaştığı sıcaklık (F)"
+  humid:
+    trans: nem
+    desc: "Bağıl nem"
+  wind_dir:
+    trans: rüzgar_yönü
+    desc: "Derece cinsinden rüzgar yönü"
+  wind_speed:
+    trans: rüzgar_hızı
+    desc: "Mil bölü saat cinsinden rüzgar hızı"
+  wind_gust:
+    trans: rüzgar_hamlesi
+    desc: "Ortalama rüzgar hızından daha hızlı (en az 10 Knot) esen, ani artış gösteren kısa süreli rüzgar"
+  precip:
+    trans: yağış
+    desc: "İnç cinsinden yağış"
+  pressure:
+    trans: basınç
+    desc: "Milibar cinsinden deniz seviyesi basıncı"
+  visib:
+    trans: görüş
+    desc: "Görüş mesafesi (mil)"
+  time_hour:
+    trans: tarih_saat
+    desc: "POSIXct formatında kayıt zamanı"
+help:
+  name: hava_durumu
+  alias: hava_durumu
+  title: Saatlik hava durumu verisi
+  description: "LGA, JFK ve EWR havalimanları için saatlik meteorolojik veriler"
+  usage: hava_durumu
+  format: 26.115 satır ve 15 sütundan oluşan bir data.frame
