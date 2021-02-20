@@ -10,7 +10,7 @@ knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
   fig.path = "man/figures/README-",
-  out.width = "80%",
+  out.width = "90%",
   dpi = 300, 
   message = FALSE, 
   warning = FALSE
@@ -82,8 +82,7 @@ ggplot(süsen, aes(çanak_uzunluğu, çanak_genişliği, colour = tür, shape = 
   ) +
   theme(
     legend.position = c(.6, .85),
-    legend.background  = element_rect(linetype = "dashed"),
-    plot.title.position = "plot"
+    legend.background  = element_rect(linetype = "dashed")
   )
 ```
 
