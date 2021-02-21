@@ -1,0 +1,27 @@
+df:
+  source: tidyr::table1
+  name: tablo1
+variables:
+  country:
+    trans: ülke
+    desc: "Ülke adı"
+    values:
+      Afghanistan: "Afganistan"
+      Brazil: "Brezilya"
+      China: "Çin"
+  year:
+    trans: yıl
+    desc: "Kayıtlı değerlerin gözlendiği yıl"
+  cases:
+    trans: vaka_sayısı
+    desc: "Kayıtlı vaka sayısı"
+  population:
+    trans: nüfus
+    desc: "Ülke nüfusu"
+help:
+  name: tablo1
+  alias: tablo1
+  title: "Dünya Sağlık Örgütü tüberküloz kayıtları (ilk varyant)"
+  description: "Afganistan, Brezilya ve Çin'de, 1999 ve 2000 yıllarına ait kayıtlı vakaları içermektedir."
+  usage: tablo1
+  format: 6 satır ve 4 sütundan oluşan bir data.frame
