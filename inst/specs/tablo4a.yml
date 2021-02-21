@@ -1,0 +1,24 @@
+df:
+  source: tidyr::table4a
+  name: tablo4a
+variables:
+  country:
+    trans: ülke
+    desc: Ülke adı
+    values:
+      Afghanistan: "Afganistan"
+      Brazil: "Brezilya"
+      China: "Çin"
+  1999:
+    trans: "1999"
+    desc: "1999'da kaydedilen vaka sayısı"
+  2000:
+    trans: "2000"
+    desc: "2000'de kaydedilen vaka sayısı"
+help:
+  name: tablo4a
+  alias: tablo4a
+  title: "Dünya Sağlık Örgütü tüberküloz kayıtları (dördüncü varyant, a)"
+  description: "Afganistan, Brezilya ve Çin'de, 1999 ve 2000 yıllarına ait kayıtlı vakaları içermektedir."
+  usage: tablo4a
+  format: 3 satır ve 3 sütundan oluşan bir tibble
