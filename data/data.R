@@ -26,6 +26,8 @@ delayedAssign('tablo3',
         eval(parse(file.path(system.file('scripts','tablo3.txt', package = 'veriler')))))
 delayedAssign('tablo4b',
         eval(parse(file.path(system.file('scripts','tablo4b.txt', package = 'veriler')))))
+delayedAssign('tablo5',
+        eval(parse(file.path(system.file('scripts','tablo5.txt', package = 'veriler')))))
 delayedAssign('tablo4a',
         eval(parse(file.path(system.file('scripts','tablo4a.txt', package = 'veriler')))))
 delayedAssign('hava_durumu',

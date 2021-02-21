@@ -1,0 +1,27 @@
+df:
+  source: tidyr::table5
+  name: tablo5
+variables:
+  country:
+    trans: ülke
+    desc: "Ülke adı"
+    values:
+      Afghanistan: "Afganistan"
+      Brazil: "Brezilya"
+      China: "Çin"
+  century:
+    trans: yüzyıl
+    desc: "Değerlerin kaydedildiği yüzyıl"
+  year:
+    trans: yıl
+    desc: "Kayıtlı değerlerin gözlendiği yıl"
+  rate:
+    trans: oran
+    desc: "Tüberküloz vakalarının toplam nüfusa oranı"
+help:
+  name: tablo5
+  alias: tablo5
+  title: "Dünya Sağlık Örgütü tüberküloz kayıtları (beşinci varyant)"
+  description: "Afganistan, Brezilya ve Çin'de, 1999 ve 2000 yıllarına ait kayıtlı vakaları içermektedir."
+  usage: tablo5
+  format: 6 satır ve 4 sütundan oluşan bir tibble
