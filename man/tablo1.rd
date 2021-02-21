@@ -2,7 +2,7 @@
 \name{tablo1}
 \alias{tablo1}
 \title{Dünya Sağlık Örgütü tüberküloz kayıtları (ilk varyant)}
-\format{6 satır ve 4 sütundan oluşan bir data.frame
+\format{6 satır ve 4 sütundan oluşan bir tibble
 \describe{
 \item{ülke}{Ülke adı}
 \item{yıl}{Kayıtlı değerlerin gözlendiği yıl}

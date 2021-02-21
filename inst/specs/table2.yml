@@ -1,0 +1,30 @@
+df:
+  source: tidyr::table2
+  name: tablo2
+variables:
+  country:
+    trans: ülke
+    desc: Ülke adı
+    values:
+      Afghanistan: "Afganistan"
+      Brazil: "Breziya"
+      China: "Çin"
+  year:
+    trans: yıl
+    desc: "Kayıtlı değerlerin gözlendiği yıl"
+  type:
+    trans: kategori
+    desc: "Gözlem değerinin ait olduğu kategori"
+    values:
+      cases: "vaka_sayısı"
+      population: "nüfus"
+  count:
+    trans: sayım
+    desc: "Kategoriler için gözlenen değer"
+help:
+  name: tablo2
+  alias: tablo2
+  title: "Dünya Sağlık Örgütü tüberküloz kayıtları (ikinci varyant)"
+  description: "Afganistan, Brezilya ve Çin'de, 1999 ve 2000 yıllarına ait kayıtlı vakaları içermektedir."
+  usage: tablo2
+  format: 12 satır ve 4 sütundan oluşan bir tibble

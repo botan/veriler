@@ -34,6 +34,7 @@ remotes::install_github("botan/veriler")
 | uçaklar       | Uçak kılavuz verileri                                                          | nycflights13 | planes       |
 | hava\_durumu  | Saatlik hava durumu verisi                                                     | nycflights13 | weather      |
 | tablo1        | Dünya Sağlık Örgütü tüberküloz kayıtları (ilk varyant)                         | tidyr        | table1       |
+| tablo2        | Dünya Sağlık Örgütü tüberküloz kayıtları (ikinci varyant)                      | tidyr        | table2       |
 
 ## Örnek
 

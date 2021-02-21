@@ -20,5 +20,7 @@ delayedAssign('başkanlık',
         eval(parse(file.path(system.file('scripts','baskanlik.txt', package = 'veriler')))))
 delayedAssign('tablo1',
         eval(parse(file.path(system.file('scripts','tablo1.txt', package = 'veriler')))))
+delayedAssign('tablo2',
+        eval(parse(file.path(system.file('scripts','tablo2.txt', package = 'veriler')))))
 delayedAssign('hava_durumu',
         eval(parse(file.path(system.file('scripts','hava_durumu.txt', package = 'veriler')))))
