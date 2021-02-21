@@ -4,7 +4,7 @@ df:
 variables:
   country:
     trans: ülke
-    desc: Ülke adı
+    desc: "Ülke adı"
     values:
       Afghanistan: "Afganistan"
       Brazil: "Brezilya"

@@ -1,0 +1,29 @@
+df:
+  source: babynames::babynames
+  name: bebek_isimleri
+variables:
+  year:
+    trans: yıl
+    desc: "Doğum yılı"
+  sex:
+    trans: cinsiyet
+    desc: "Bebeğin cinsiyeti"
+    values:
+      F: "K"
+      M: "E"
+  name:
+    trans: isim
+    desc: "İsim"
+  n:
+    trans: sayı
+    desc: "Bebek sayısı"
+  prop:
+    trans: oran
+    desc: "Belirtilen cinsiyet ve yıl için aynı isme sahip olanların oranı"
+help:
+  name: bebek_isimleri
+  alias: bebek_isimleri
+  title: "Bebek isimleri"
+  description: "ABD Sosyal Güvenlik Kurumu'ndan elde edilen bebek ismi verileri. En az 5 kullanıma sahip tüm isimleri içerir."
+  usage: bebek_isimleri
+  format: 1.924.665 satır ve 5 sütundan oluşan bir tibble

@@ -20,25 +20,26 @@ remotes::install_github("botan/veriler")
 
 ## Çeviriler
 
-| İsim          | Başlık                                                                         | Paket        | Veri         |
-|:--------------|:-------------------------------------------------------------------------------|:-------------|:-------------|
-| old\_faithful | Old Faithful gayzer verisi                                                     | datasets     | faithful     |
-| süsen         | Edgar Anderson’ın Süsen (Iris) çiçeği türleri verileri                         | datasets     | iris         |
-| mt\_arabalar  | Motor Trend’in Araba Yol Testleri                                              | datasets     | mtcars       |
-| elmaslar      | 50 bin adetten fazla yuvarlak kesim elmasın fiyatları                          | ggplot2      | diamonds     |
-| miller        | 38 popüler otomobil modeli için 1999’dan 2008’e kadar yakıt ekonomisi verileri | ggplot2      | mpg          |
-| başkanlık     | Eisenhower’dan Obama’ya 11 başkanın dönemleri                                  | ggplot2      | presidential |
-| havayolları   | Havayolu adları                                                                | nycflights13 | airlines     |
-| havalimanları | Havalimanları kılavuzu                                                         | nycflights13 | airports     |
-| uçuşlar       | Uçuşlar verisi                                                                 | nycflights13 | flights      |
-| uçaklar       | Uçak kılavuz verileri                                                          | nycflights13 | planes       |
-| hava\_durumu  | Saatlik hava durumu verisi                                                     | nycflights13 | weather      |
-| tablo1        | Dünya Sağlık Örgütü tüberküloz kayıtları (ilk varyant)                         | tidyr        | table1       |
-| tablo2        | Dünya Sağlık Örgütü tüberküloz kayıtları (ikinci varyant)                      | tidyr        | table2       |
-| tablo3        | Dünya Sağlık Örgütü tüberküloz kayıtları (üçüncü varyant)                      | tidyr        | table3       |
-| tablo4a       | Dünya Sağlık Örgütü tüberküloz kayıtları (dördüncü varyant, a)                 | tidyr        | table4a      |
-| tablo4b       | Dünya Sağlık Örgütü tüberküloz kayıtları (dördüncü varyant, b)                 | tidyr        | table4b      |
-| tablo5        | Dünya Sağlık Örgütü tüberküloz kayıtları (beşinci varyant)                     | tidyr        | table5       |
+| İsim            | Başlık                                                                         | Paket        | Veri         |
+|:----------------|:-------------------------------------------------------------------------------|:-------------|:-------------|
+| bebek\_isimleri | Bebek isimleri                                                                 | babynames    | babynames    |
+| old\_faithful   | Old Faithful gayzer verisi                                                     | datasets     | faithful     |
+| süsen           | Edgar Anderson’ın Süsen (Iris) çiçeği türleri verileri                         | datasets     | iris         |
+| mt\_arabalar    | Motor Trend’in Araba Yol Testleri                                              | datasets     | mtcars       |
+| elmaslar        | 50 bin adetten fazla yuvarlak kesim elmasın fiyatları                          | ggplot2      | diamonds     |
+| miller          | 38 popüler otomobil modeli için 1999’dan 2008’e kadar yakıt ekonomisi verileri | ggplot2      | mpg          |
+| başkanlık       | Eisenhower’dan Obama’ya 11 başkanın dönemleri                                  | ggplot2      | presidential |
+| havayolları     | Havayolu adları                                                                | nycflights13 | airlines     |
+| havalimanları   | Havalimanları kılavuzu                                                         | nycflights13 | airports     |
+| uçuşlar         | Uçuşlar verisi                                                                 | nycflights13 | flights      |
+| uçaklar         | Uçak kılavuz verileri                                                          | nycflights13 | planes       |
+| hava\_durumu    | Saatlik hava durumu verisi                                                     | nycflights13 | weather      |
+| tablo1          | Dünya Sağlık Örgütü tüberküloz kayıtları (ilk varyant)                         | tidyr        | table1       |
+| tablo2          | Dünya Sağlık Örgütü tüberküloz kayıtları (ikinci varyant)                      | tidyr        | table2       |
+| tablo3          | Dünya Sağlık Örgütü tüberküloz kayıtları (üçüncü varyant)                      | tidyr        | table3       |
+| tablo4a         | Dünya Sağlık Örgütü tüberküloz kayıtları (dördüncü varyant, a)                 | tidyr        | table4a      |
+| tablo4b         | Dünya Sağlık Örgütü tüberküloz kayıtları (dördüncü varyant, b)                 | tidyr        | table4b      |
+| tablo5          | Dünya Sağlık Örgütü tüberküloz kayıtları (beşinci varyant)                     | tidyr        | table5       |
 
 ## Örnek
 
