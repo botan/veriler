@@ -37,6 +37,7 @@ remotes::install_github("botan/veriler")
 | tablo2        | Dünya Sağlık Örgütü tüberküloz kayıtları (ikinci varyant)                      | tidyr        | table2       |
 | tablo3        | Dünya Sağlık Örgütü tüberküloz kayıtları (üçüncü varyant)                      | tidyr        | table3       |
 | tablo4a       | Dünya Sağlık Örgütü tüberküloz kayıtları (dördüncü varyant, a)                 | tidyr        | table4a      |
+| tablo4b       | Dünya Sağlık Örgütü tüberküloz kayıtları (dördüncü varyant, b)                 | tidyr        | table4b      |
 
 ## Örnek
 
