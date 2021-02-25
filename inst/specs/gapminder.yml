@@ -1,0 +1,179 @@
+df:
+  source: gapminder::gapminder
+  name: gapminder_tr
+variables:
+  country:
+    trans: ülke
+    values:
+      Afghanistan: Afganistan
+      Albania: Arnavutluk
+      Algeria: Cezayir
+      Angola: Angola
+      Argentina: Arjantin
+      Australia: Avustralya
+      Austria: Avusturya
+      Bahrain: Bahreyn
+      Bangladesh: Bangladeş
+      Belgium: Belçika
+      Benin: Benin
+      Bolivia: Bolivya
+      Bosnia and Herzegovina: Bosna Hersek
+      Botswana: Botsvana
+      Brazil: Brezilya
+      Bulgaria: Bulgaristan
+      Burkina Faso: Burkina Faso
+      Burundi: Burundi
+      Cambodia: Kamboçya
+      Cameroon: Kamerun
+      Canada: Kanada
+      Central African Republic: Orta Afrika Cumhuriyeti
+      Chad: Çad
+      Chile: Şili
+      China: Çin
+      Colombia: Kolombiya
+      Comoros: Komorlar
+      Congo, Dem. Rep.: Demokratik Kongo Cumhuriyeti
+      Congo, Rep.: Kongo Cumhuriyeti
+      Costa Rica: Kosta Rika
+      Cote d'Ivoire: Fildişi Sahili
+      Croatia: Hırvatistan
+      Cuba: Küba
+      Czech Republic: Çekya
+      Denmark: Danimarka
+      Djibouti: Cibuti
+      Dominican Republic: Dominik Cumhuriyeti
+      Ecuador: Ekvador
+      Egypt: Mısır
+      El Salvador: El Salvador
+      Equatorial Guinea: Ekvator Ginesi
+      Eritrea: Eritre
+      Ethiopia: Etiyopta
+      Finland: Finlandiya
+      France: Fransa
+      Gabon: Gabon
+      Gambia: Gambiya
+      Germany: Almanya
+      Ghana: Gana
+      Greece: Yunanistan
+      Guatemala: Guatemala
+      Guinea-Bissau: Gine-Bissau
+      Guinea: Gine
+      Haiti: Haiti
+      Honduras: Honduras
+      Hong Kong, China: Hong Kong, Çin
+      Hungary: Macaristan
+      Iceland: İzlanda
+      India: Hindistan
+      Indonesia: Endonezya
+      Iran: İran
+      Iraq: Irak
+      Ireland: İrlanda
+      Israel: İsrail
+      Italy: İtalya
+      Jamaica: Jamaika
+      Japan: Japonya
+      Jordan: Ürdün
+      Kenya: Kenya
+      Korea, Dem. Rep.: Kuzey Kore
+      Korea, Rep.: Güney Kore
+      Kuwait: Kuveyt
+      Lebanon: Lübnan
+      Lesotho: Lesotho
+      Liberia: Liberya
+      Libya: Libya
+      Madagascar: Madagaskar
+      Malawi: Malavi
+      Malaysia: Malezya
+      Mali: Mali
+      Mauritania: Moritanya
+      Mauritius: Mauritius
+      Mexico: Meksika
+      Mongolia: Moğolistan
+      Montenegro: Karadağ
+      Morocco: Fas
+      Mozambique: Mozambik
+      Myanmar: Burma
+      Namibia: Namibya
+      Nepal: Nepal
+      Netherlands: Hollanda
+      New Zealand: Yeni Zelanda
+      Nicaragua: Nikaragua
+      Niger: Nijer
+      Nigeria: Nijerya
+      Norway: Norveç
+      Oman: Umman
+      Pakistan: Pakistan
+      Panama: Panama
+      Paraguay: Paraguay
+      Peru: Peru
+      Philippines: Filipinler
+      Poland: Polonya
+      Portugal: Portekiz
+      Puerto Rico: Porto Riko
+      Reunion: Reunion
+      Romania: Romanya
+      Rwanda: Ruanda
+      Sao Tome and Principe: Sao Tome ve Principe
+      Saudi Arabia: Suudi Arabistan
+      Senegal: Senegal
+      Serbia: Sırbistan
+      Sierra Leone: Sierra Leone
+      Singapore: Singapur
+      Slovak Republic: Slovakya
+      Slovenia: Slovenya
+      Somalia: Somali
+      South Africa: Güney Afrika
+      Spain: İspanya
+      Sri Lanka: Sri Lanka
+      Sudan: Sudan
+      Swaziland: Esvatini
+      Sweden: İsveç
+      Switzerland: İsviçre
+      Syria: Suriye
+      Taiwan: Tayvan
+      Tanzania: Tanzanya
+      Thailand: Tayland
+      Togo: Togo
+      Trinidad and Tobago: Trinidad ve Tobago
+      Tunisia: Tunus
+      Turkey: Türkiye
+      Uganda: Uganda
+      United Kingdom: Birleşik Krallık
+      United States: Amerika Birleşik Devletleri
+      Uruguay: Uruguay
+      Venezuela: Venezuela
+      Vietnam: Vietnam
+      West Bank and Gaza: Batı Şeria ve Gazze
+      Yemen, Rep.: Yemen
+      Zambia: Zambiya
+      Zimbabwe: Zimbabve
+    desc: "Ülke adları (142 faktör)"
+  continent:
+    trans: kıta
+    values:
+      Africa: Afrika
+      Americas: Amerika
+      Asia: Asya
+      Europe: Avrupa
+      Oceania: Okyanusya
+    desc: "Kıtalar (5 faktör)"
+  year:
+    trans: yıl
+    desc: "1952'den 2007'ye kadar 5 yıllık artışlarla"
+  lifeExp:
+    trans: ort_ömür
+    desc: "Beklenen yaşam süresi (yıl)"
+  pop:
+    trans: nüfus
+    desc: "Nüfus"
+  gdpPercap:
+    trans: gsyih
+    desc: "Kişi başına düşen gayri safi yurt içi hasıla (enflasyona göre düzeltilmiş ABD Doları cinsinden)"
+help:
+  name: gapminder_tr
+  alias: gapminder_tr
+  title: "Gapminder verileri."
+  description: "Ülkelere göre beklenen yaşam süresi, kişi başına GSYİH ve nüfus hakkındaki Gapminder verileri."
+  usage: gapminder_tr
+  format: 1.704 satır ve 6 sütundan oluşan bir tibble
+  source: http://www.gapminder.org/data/
