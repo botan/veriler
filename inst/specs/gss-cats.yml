@@ -120,7 +120,7 @@ variables:
 help:
   name: anket
   alias: anket
-  title: "'General Social Survey' (GSS) araştırmasından kategorik değişken örnekleri"
-  description: "'General Social Survey' (GSS) araştırmasından kategorik değişken örnekleri"
+  title: "General Social Survey (GSS) araştırmasından kategorik değişken örnekleri"
+  description: "General Social Survey (GSS) araştırmasından kategorik değişken örnekleri"
   usage: anket
   format: 21.473 satır ve 9 sütundan oluşan bir tibble

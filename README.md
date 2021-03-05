@@ -26,7 +26,7 @@ remotes::install_github("botan/veriler")
 | old\_faithful   | Old Faithful gayzer verisi                                                     | datasets     | faithful     |
 | süsen           | Edgar Anderson’ın Süsen (Iris) çiçeği türleri verileri                         | datasets     | iris         |
 | mt\_arabalar    | Motor Trend’in Araba Yol Testleri                                              | datasets     | mtcars       |
-| anket           | ‘General Social Survey’ (GSS) araştırmasından kategorik değişken örnekleri     | forcats      | gss\_cat     |
+| anket           | General Social Survey (GSS) araştırmasından kategorik değişken örnekleri       | forcats      | gss\_cat     |
 | gapminder\_tr   | Gapminder verileri.                                                            | gapminder    | gapminder    |
 | elmaslar        | 50 bin adetten fazla yuvarlak kesim elmasın fiyatları                          | ggplot2      | diamonds     |
 | miller          | 38 popüler otomobil modeli için 1999’dan 2008’e kadar yakıt ekonomisi verileri | ggplot2      | mpg          |
