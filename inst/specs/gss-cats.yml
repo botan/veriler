@@ -1,0 +1,126 @@
+df:
+  source: forcats::gss_cat
+  name: anket
+variables:
+  year:
+    trans: yıl
+    desc: "Araştırma yılı, 2000-2014"
+  marital:
+    trans: medeni_durum
+    desc: "Medeni durum"
+    values:
+      No answer: "Yanıt yok"
+      Never married: "Hiç evlenmemiş"
+      Separated: "Ayrılmış"
+      Divorced: "Boşanmış"
+      Widowed: "Dul"
+      Married: "Evli"
+  age:
+    trans: yaş
+    desc: "Yaş. Maksimum 89 ile sınırlı"
+  race:
+    trans: ırk
+    desc: "Irk"
+    values:
+      Other: "Diğer"
+      Black: "Siyah"
+      White: "Beyaz"
+      Not applicable: "Uygulanamaz"
+  rincome:
+    trans: gelir
+    desc: "Bildirilen gelir (ABD Doları)"
+    values:
+      No answer: "Yanıt tok"
+      Don't know: "Bilmiyor"
+      Refused: "Yanıt vermeyi reddetti"
+      $25000 or more: "25000$ ve üstü"
+      $20000 - 24999: "20000$ - 24999$"
+      $15000 - 19999: "15000$ - 19999$"
+      $10000 - 14999: "10000$ - 14999$"
+      $8000 to 9999: "8000$ - 9999$"
+      $7000 to 7999: "7000$ - 7999$"
+      $6000 to 6999: "6000$ - 6999$"
+      $5000 to 5999: "5000$ - 5999$"
+      $4000 to 4999: "4000$ - 4999$"
+      $3000 to 3999: "3000$ - 3999$"
+      $1000 to 2999: "1000$ - 2999$"
+      Lt $1000: "1000$'dan az"
+      Not applicable: "Uygulanamaz"
+  partyid:
+    trans: parti
+    desc: "Siyasi parti tercihi"
+    values:
+      No answer: "Yanıt yok"
+      Don't know: "Bilmiyor"
+      Other party: "Diğer parti"
+      Strong republican: "Sıkı cumhuriyetçi"
+      Not str republican: "Cumhuriyetçi"
+      Ind,near rep: "Bağımsız, cumhuriyetçiye yakın"
+      Independent: "Bağımsız"
+      Ind,near dem: "Bağımsız, demokrata yakın"
+      Not str democrat: "Demokrat"
+      Strong democrat: "Sıkı demokrat"
+  relig:
+    trans: din
+    desc: "Dini inanç"
+    values:
+      No answer: "Yanıt yok"
+      Don't know: "Bilmiyor"
+      Inter-nondenominational: "Mezhepsiz"
+      Native american: "Amerikan yerlisi"
+      Christian: "Hristiyan"
+      Orthodox-christian: "Ortodoks hristiyan"
+      Moslem/islam: "Müslüman/islam"
+      Other eastern: "Diğer doğu dinleri"
+      Hinduism: "Hindu"
+      Buddhism: "Budist"
+      Other: "Diğer"
+      None: "Hiçbiri"
+      Jewish: "Yahudi"
+      Catholic: "Katolik"
+      Protestant: "Protestan"
+      Not applicable: "Uygulanamaz"
+  denom:
+    trans: mezhep
+    desc: "Bağlı olduğu mezhep"
+    values:
+      No answer: "Yanıt yok"
+      Don't know: "Bilmiyor"
+      No denomination: "Mezhepsiz"
+      Other: "Diğer"
+      Episcopal: "Episkopal"
+      Presbyterian-dk wh: "Presbiteryen, hangisi olduğunu bilmiyor"
+      Presbyterian, merged: "Presbiteryen, birleşmiş"
+      Other presbyterian: "Diğer presbiteryen"
+      United pres ch in us: "ABD Birleşik Presbiteryen Kilisesi"
+      Presbyterian c in us: "ABD Presbiteryen Kilisesi"
+      Lutheran-dk which: "Luteryen, hangisi olduğunu bilmiyor"
+      Evangelical luth: "Evanjelik luteryen"
+      Other lutheran: "Diğer luteryen"
+      Wi evan luth synod: "Wisconsin evanjelik luteryen sinod"
+      Lutheran-mo synod: "Luteryen sinod"
+      Luth ch in america: "ABD Luteryen Kilisesi"
+      Am lutheran: "Amerikan Luteryen Kilisesi"
+      Methodist-dk which: "Metodist, hangisi olduğunu bilmiyor"
+      Other methodist: "Diğer metodist"
+      United methodist: "Birleşik Metodist Kilisesi"
+      Afr meth ep zion: "Afrika Metodist Episkopal Siyon Kilisesi"
+      Afr meth episcopal: "Afrika Metodist Episkopal Kilisesi"
+      Baptist-dk which: "Baptist, hangisi olduğunu bilmiyor"
+      Other baptists: "Diğer baptist"
+      Southern baptist: "Güneyli baptist"
+      Nat bapt conv usa: "ABD Ulusal Baptist Konvansiyonu"
+      Nat bapt conv of am: "Amerikan Ulusal Baptist Konvansiyonu"
+      Am bapt ch in usa: "ABD Baptist Kilisesi"
+      Am baptist asso: "Amerikan Baptist Derneği"
+      Not applicable: "Uygulanamaz"
+  tvhours:
+    trans: tv_saati
+    desc: "Günlük televizyon izleme süresi"
+help:
+  name: anket
+  alias: anket
+  title: "'General Social Survey' (GSS) araştırmasından kategorik değişken örnekleri"
+  description: "'General Social Survey' (GSS) araştırmasından kategorik değişken örnekleri"
+  usage: anket
+  format: 21.473 satır ve 9 sütundan oluşan bir tibble
