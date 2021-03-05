@@ -71,7 +71,7 @@ glimpse(süsen)
 ggplot(süsen, aes(çanak_uzunluğu, çanak_genişliği, colour = tür, shape = tür)) +
   geom_point(size = 3.3, alpha = .77) +
   theme_minimal() +
-  scale_color_manual(values = c("#0059b3","#ffcc00","#80002a")) +
+  scale_color_manual(values = c("#0059b3", "#ffcc00", "#80002a")) +
   labs(
     title = "Çanak yaprağı ölçüleri",
     subtitle = "Süsen Setosa, S. Versicolor ve S. Virginica çiçeklerinin çanak yaprağı uzunlukları ve genişlikleri",

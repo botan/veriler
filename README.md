@@ -27,6 +27,7 @@ remotes::install_github("botan/veriler")
 | süsen           | Edgar Anderson’ın Süsen (Iris) çiçeği türleri verileri                         | datasets     | iris         |
 | mt\_arabalar    | Motor Trend’in Araba Yol Testleri                                              | datasets     | mtcars       |
 | anket           | General Social Survey (GSS) araştırmasından kategorik değişken örnekleri       | forcats      | gss\_cat     |
+| yaygın          | Yaygın taşıt modelleri                                                         | fueleconomy  | common       |
 | gapminder\_tr   | Gapminder verileri.                                                            | gapminder    | gapminder    |
 | elmaslar        | 50 bin adetten fazla yuvarlak kesim elmasın fiyatları                          | ggplot2      | diamonds     |
 | miller          | 38 popüler otomobil modeli için 1999’dan 2008’e kadar yakıt ekonomisi verileri | ggplot2      | mpg          |
@@ -63,7 +64,7 @@ glimpse(süsen)
 ggplot(süsen, aes(çanak_uzunluğu, çanak_genişliği, colour = tür, shape = tür)) +
   geom_point(size = 3.3, alpha = .77) +
   theme_minimal() +
-  scale_color_manual(values = c("#0059b3","#ffcc00","#80002a")) +
+  scale_color_manual(values = c("#0059b3", "#ffcc00", "#80002a")) +
   labs(
     title = "Çanak yaprağı ölçüleri",
     subtitle = "Süsen Setosa, S. Versicolor ve S. Virginica çiçeklerinin çanak yaprağı uzunlukları ve genişlikleri",

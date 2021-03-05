@@ -1,0 +1,23 @@
+df:
+  source: fueleconomy::common
+  name: yaygin
+variables:
+  make:
+    trans: marka
+    desc: "Marka"
+  model:
+    trans: model
+    desc: "Model"
+  "n":
+    trans: n
+    desc: "Model için toplam adet"
+  years:
+    trans: n_yıl
+    desc: "Toplam model-yıl adedi"
+help:
+  name: yaygın
+  alias: yaygın
+  title:  Yaygın taşıt modelleri
+  description: "Bu modeller en az 10 yıllık veriye sahiptir. Bu veri kümesi, veriler::taşıtlar ile birleştirilerek (left-join), gözlem sayısını daha elverişli bir seviyeye çekmek için tasarlanmıştır."
+  usage: yaygın
+  format: 347 satır ve 4 sütundan oluşan bir tibble
