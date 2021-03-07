@@ -4,21 +4,32 @@ df:
 variables:
   manufacturer:
     trans: üretici
-    desc: Üretici firma adı
+    desc: "Üretici firma adı"
   model:
     trans: model
-    desc: Model adı
+    desc: "Model adı"
   displ:
-    trans: hacim
+    trans: motor
     desc: "Motor hacmi (litre)"
   year:
     trans: yıl
-    desc: Üretim yılı
+    desc: "Üretim yılı"
   cyl:
     trans: silindir
     desc: "Silindir sayısı"
   trans:
     trans: şanzıman
+    values:
+      auto(av): "otomatik(av)"
+      auto(l3): "otomatik(l3)"
+      auto(l4): "otomatik(l4)"
+      auto(l5): "otomatik(l5)"
+      auto(l6): "otomatik(l6)"
+      auto(s4): "otomatik(s4)"
+      auto(s5): "otomatik(s5)"
+      auto(s6): "otomatik(s6)"
+      manual(m5): "manuel(m5)"
+      manual(m6): "manuel(m6)"
     desc: "Şanzıman türü"
   drv:
     trans: çekiş
@@ -48,7 +59,7 @@ variables:
       2seater: 2 kişilik
       compact: kompakt
       midsize: orta boy
-      minivan: ticari
+      minivan: hafif ticari
       pickup: kamyonet
       subcompact: küçük boy
       suv: arazi
@@ -59,4 +70,4 @@ help:
   title: "38 popüler otomobil modeli için 1999'dan 2008'e kadar yakıt ekonomisi verileri"
   description: "Bu veri kümesi, EPA'nın https://fueleconomy.gov/ adresinde sunduğu yakıt ekonomisi verilerinin bir kısmını içerir. Yalnızca 1999 ile 2008 arasında her yıl yeni çıkan modelleri içerir - bu, arabanın popülerliğinin bir göstergesi olarak kullanılmıştır."
   usage: miller
-  format: 234 gözlem ve 11 değişken içeren bir data.frame
+  format: 234 gözlem ve 11 değişken içeren bir tibble

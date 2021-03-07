@@ -2,11 +2,11 @@
 \name{miller}
 \alias{miller}
 \title{38 popüler otomobil modeli için 1999'dan 2008'e kadar yakıt ekonomisi verileri}
-\format{234 gözlem ve 11 değişken içeren bir data.frame
+\format{234 gözlem ve 11 değişken içeren bir tibble
 \describe{
 \item{üretici}{Üretici firma adı}
 \item{model}{Model adı}
-\item{hacim}{Motor hacmi (litre)}
+\item{motor}{Motor hacmi (litre)}
 \item{yıl}{Üretim yılı}
 \item{silindir}{Silindir sayısı}
 \item{şanzıman}{Şanzıman türü}
