@@ -1,0 +1,152 @@
+df:
+  source: fueleconomy::vehicles
+  name: tasitlar
+variables:
+  id:
+    trans: no
+    desc: "Özgün EPA numarası"
+  make:
+    trans: üretici
+    desc: "Üretici"
+  model:
+    trans: model
+    desc: "Model adı"
+  year:
+    trans: yıl
+    desc: "Model yılı"
+  class:
+    trans: sınıf
+    values:
+      Compact Cars: "Kompakt Arabalar"
+      Large Cars: "Büyük Boy Arabalar"
+      Midsize Cars: "Orta Boy Arabalar"
+      Midsize Station Wagons: "Orta Boy Steyşınlar"
+      Midsize-Large Station Wagons: "Orta-Geniş Boy Steyşınlar"
+      Minicompact Cars: "Süpermini Arabalar"
+      Minivan - 2WD: "Hafif Ticari - 2WD"
+      Minivan - 4WD: "Hafif Ticari - 4WD"
+      Small Pickup Trucks: "Küçük Pikaplar"
+      Small Pickup Trucks 2WD: "Küçük Pikaplar 2WD"
+      Small Pickup Trucks 4WD: "Küçük Pikaplar 4WD"
+      Small Sport Utility Vehicle 2WD: "Küçük SUV 2WD"
+      Small Sport Utility Vehicle 4WD: "Küçük SUV 4WD"
+      Small Station Wagons: "Küçük Boy Steyşınlar"
+      Special Purpose Vehicle: "Özel Amaçlı Taşıt"
+      Special Purpose Vehicle 2WD: "Özel Amaçlı Taşıt 2WD"
+      Special Purpose Vehicle 4WD: "Özel Amaçlı Taşıt 4WD"
+      Special Purpose Vehicles: "Özel Amaçlı Taşıtlar"
+      Special Purpose Vehicles/2wd: "Özel Amaçlı Taşıtlar/2wd"
+      Special Purpose Vehicles/4wd: "Özel Amaçlı Taşıtlar/4wd"
+      Sport Utility Vehicle - 2WD: "SUV - 2WD"
+      Sport Utility Vehicle - 4WD: "SUV - 4WD"
+      Standard Pickup Trucks: "Standart Kamyonetler"
+      Standard Pickup Trucks 2WD: "Standart Kamyonetler 2WD"
+      Standard Pickup Trucks 4WD: "Standart Kamyonetler4WD"
+      Standard Pickup Trucks/2wd: "Standart Kamyonetler/2wd"
+      Standard Sport Utility Vehicle 2WD: "Standart SUV 2WD"
+      Standard Sport Utility Vehicle 4WD: "Standart SUV 4WD"
+      Subcompact Cars: "Küçük Boy Arabalar"
+      Two Seaters: "İki kişilikler"
+      Vans: "Ticariler"
+      Vans Passenger: "Minibüs"
+      Vans, Cargo Type: "Ticariler, Kargo Tipi"
+      Vans, Passenger Type: "Ticariler, Yolcu Tipi"
+    desc: "EPA'ya göre taşıt boyutu sınıfları. http://fueleconomy.gov/feg/ws/wsData.shtml#VClass"
+  trans:
+    trans: şanzıman
+    values:
+      Auto (AV-S6): "Otomatik (AV-S6)"
+      Auto (AV-S8): "Otomatik (AV-S8)"
+      Auto (AV): "Otomatik (AV)"
+      Auto(A1): "Otomatik(A1)"
+      Auto(A8): "Otomatik(A8)"
+      Auto(AM-S6): "Otomatik(AM-S6)"
+      Auto(AM-S7): "Otomatik(AM-S7)"
+      Auto(AM-S8): "Otomatik(AM-S8)"
+      Auto(AM5): "Otomatik(AM5)"
+      Auto(AM6): "Otomatik(AM6)"
+      Auto(AM7): "Otomatik(AM7)"
+      Auto(AV-S6): "Otomatik(AV-S6)"
+      Auto(AV-S7): "Otomatik(AV-S7)"
+      Auto(AV-S8): "Otomatik(AV-S8)"
+      Auto(L3): "Otomatik(L3)"
+      Auto(L4): "Otomatik(L4)"
+      Automatic (A1): "Otomatik (A1)"
+      Automatic (A6): "Otomatik (A6)"
+      Automatic (AM-S6): "Otomatik (AM-S6)"
+      Automatic (AM-S7): "Otomatik (AM-S7)"
+      Automatic (AM5): "Otomatik (AM5)"
+      Automatic (AM6): "Otomatik (AM6)"
+      Automatic (AV-S6): "Otomatik (AV-S6)"
+      Automatic (AV): "Otomatik (AV)"
+      Automatic (S4): "Otomatik (S4)"
+      Automatic (S5): "Otomatik (S5)"
+      Automatic (S6): "Otomatik (S6)"
+      Automatic (S7): "Otomatik (S7)"
+      Automatic (S8): "Otomatik (S8)"
+      Automatic (S9): "Otomatik (S9)"
+      Automatic (variable gear ratios): "Otomatik (değişken dişli oranı)"
+      Automatic 3-spd: "Otomatik 3-ileri"
+      Automatic 4-spd: "Otomatik 4-ileri"
+      Automatic 5-spd: "Otomatik 5-ileri"
+      Automatic 6-spd: "Otomatik 6-ileri"
+      Automatic 6spd: "Otomatik 6ileri"
+      Automatic 7-spd: "Otomatik 7-ileri"
+      Automatic 8-spd: "Otomatik 8-ileri"
+      Automatic 8spd: "Otomatik 8ileri"
+      Automatic 9-spd: "Otomatik 9-ileri"
+      Manual 3-spd: "Manuel 3-ileri"
+      Manual 4-spd: "Manuel 4-ileri"
+      Manual 5 spd: "Manuel 5 ileri"
+      Manual 5-spd: "Manuel 5-ileri"
+      Manual 6-spd: "Manuel 6-ileri"
+      Manual 7-spd: "Manuel 7-ileri"
+      Manual(M7): "Manuel(M7)"
+    desc: "Şanzıman türü"
+  drive:
+    trans: çekiş
+    values:
+      2-Wheel Drive: "2-Çeker"
+      4-Wheel Drive: "4-Çeker"
+      4-Wheel or All-Wheel Drive: "4-Çeker veya Elektronik 4-Çeker"
+      All-Wheel Drive: "Elektronik 4-Çeker"
+      Front-Wheel Drive: "Önden Çeker"
+      Part-time 4-Wheel Drive: "Kısmi 4-Çeker"
+      Rear-Wheel Drive: "Arkadan Çeker"
+    desc: "Çekiş türü"
+  cyl:
+    trans: silindir
+    desc: "Silindir sayısı"
+  displ:
+    trans: motor
+    desc: "Motor hacmi (litre)"
+  fuel:
+    trans: yakıt
+    values:
+      CNG: "Sıkıştırılmış Doğalgaz"
+      Diesel: "Dizel"
+      Electricity: "Elektrik"
+      Gasoline or E85: "Benzin veya E85"
+      Gasoline or natural gas: "Benzin veya Doğalgaz"
+      Gasoline or propane: "Benzin veya Propan"
+      Midgrade: "Karışık"
+      Premium: "Süper"
+      Premium and Electricity: "Süper veya Elektrik"
+      Premium Gas or Electricity: "Süper Benzin veya Elektrik"
+      Premium or E85: "Süper veya E85"
+      Regular: "Normal"
+      Regular Gas and Electricity: "Gás regular e Eletricidade"
+    desc: "Yakıt türü"
+  hwy:
+    trans: otoyol
+    desc: "Otoyolda mil başına galon tüketimi"
+  cty:
+    trans: şehir
+    desc: "Şehir içi mil başına galon tüketimi"
+help:
+  name: taşıtlar
+  alias: taşıtlar
+  title: "Taşıtların yakıt ekonomileri"
+  description: "ABD Çevre Koruma Ajansı (EPA), 1985-2015 yılları arası yakıt ekonomisi verileri. Bu veri kümesi, sadece seçili değişkenleri ve eksik veri içermeyen taşıtları içerir."
+  usage: taşıtlar
+  format: 33442 satır ve 12 sütundan oluşan bir tibble

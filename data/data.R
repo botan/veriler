@@ -38,5 +38,7 @@ delayedAssign('tablo5',
         eval(parse(file.path(system.file('scripts','tablo5.txt', package = 'veriler')))))
 delayedAssign('tablo4a',
         eval(parse(file.path(system.file('scripts','tablo4a.txt', package = 'veriler')))))
+delayedAssign('taşıtlar',
+        eval(parse(file.path(system.file('scripts','tasitlar.txt', package = 'veriler')))))
 delayedAssign('hava_durumu',
         eval(parse(file.path(system.file('scripts','hava_durumu.txt', package = 'veriler')))))
