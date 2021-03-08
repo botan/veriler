@@ -1,0 +1,44 @@
+df:
+  source: nasaweather::atmos
+  name: atmosfer
+variables:
+  lat:
+    trans: enlem
+    desc: "Ölçüm noktası. 113,8 - 56,2 Batı boylamları ve 36,2 Kuzey - 21,2 Güney enlemleri arasında, eşit aralıklı 24 x 24 mekansal grid"
+  long:
+    trans: boylam
+    desc: "Ölçüm noktası. 113,8 - 56,2 Batı boylamları ve 36,2 Kuzey - 21,2 Güney enlemleri arasında, eşit aralıklı 24 x 24 mekansal grid"
+  year:
+    trans: yıl
+    desc: "Ocak 1995'ten Aralık 2000'e kadar, birer ay ara ile 72 gözlem"
+  month:
+    trans: ay
+    desc: "Ocak 1995'ten Aralık 2000'e kadar, birer ay ara ile 72 gözlem"
+  surftemp:
+    trans: yüzey_sıcaklığı
+    desc: "Açık gökyüzü koşullarında dünya yüzeyinden yayılan enerjiye dayalı Kelvin cinsinden aylık ortalama yüzey sıcaklığı"
+  temp:
+    trans: sıcaklık
+    desc: "Dünya yüzeyine yakın havanın Kelvin cinsinden aylık ortalama sıcaklığı"
+  pressure:
+    trans: basınç
+    desc: "Dünya yüzeyinde belirli bir konumdaki aylık ortalama atmosferik yüzey basıncı (mbar)"
+  ozone:
+    trans: ozon
+    desc: "Ortalama Ozon Bolluğu: Atmosferik kolondaki, Dobson cinsinden aylık ortalama toplam ozon miktarı"
+  cloudlow:
+    trans: alçak_bulut
+    desc: "Ortalama Alçak Bulut Örtüsü: Bulut tepe basıncı 680 mbar'dan fazla veya kabaca 3,24 km'den az bulutlarla kaplı gökyüzünün aylık ortalama yüzdesi"
+  cloudmid:
+    trans: orta_bulut
+    desc: "Ortalama Orta Bulut Örtüsü: Bulut tepe basıncı 440 - 680 mbar arasında veya kabaca 3,24'ten 6,5 km'ye kadar bulutlarla kaplı gökyüzünün aylık ortalama yüzdesi"
+  cloudhigh:
+    trans: yüksek_bulut
+    desc: "Ortalama Yüksek Bulut Örtüsü: Bulut tepe basıncı 440 mbar'a eşit ya da daha az veya kabaca 6.5 km'den daha fazla bulutlarla kaplı gökyüzünün aylık ortalama yüzdesi"
+help:
+  name: atmosfer
+  alias: atmosfer
+  title: "Atmosferik veriler"
+  description: "Atmosferik veriler."
+  usage: atmosfer
+  format: 41.472 satır ve 11 sütundan oluşan bir tibble
