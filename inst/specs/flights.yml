@@ -31,19 +31,19 @@ variables:
     desc: "Rötar süreleri (dakika). Negatif değerler erken varışları temsil eder"
   carrier:
     trans: havayolu_kodu
-    desc: "Havayolu şirketinin 2 harfli kısaltması. Adlarına ulaşmak için: veriler::havayolları"
+    desc: "Havayolu şirketinin 2 harfli kısaltması. Adlarına ulaşmak için: \\code{\\link{havayolları}}"
   flight:
     trans: uçuş
     desc: "Uçuş numarası"
   tailnum:
     trans: kuyruk_numarası
-    desc: "Uçak kuyruk numarası. Uçak kılavuz verileri için: veriler::uçaklar"
+    desc: "Uçak kuyruk numarası. Uçak kılavuz verileri için: \\code{\\link{uçaklar}}"
   origin:
     trans: orijin
-    desc: "Kalkış noktası. Havalimanı kılavuz verileri için: veriler::havalimanları"
+    desc: "Kalkış noktası. Havalimanı kılavuz verileri için: \\code{\\link{havalimanları}}"
   dest:
     trans: varış_noktası
-    desc: "Varış noktası. Havalimanı kılavuz verileri için: veriler::havalimanları"
+    desc: "Varış noktası. Havalimanı kılavuz verileri için: \\code{\\link{havalimanları}}"
   air_time:
     trans: uçuş_süresi
     desc: "Havada geçirilen süre (dakika)"
@@ -58,7 +58,7 @@ variables:
     desc: "Planlanan kalkış dakikası"
   time_hour:
     trans: tarih_saat
-    desc: "POSIXct formatında planlanan uçuş tarihi ve saati. Uçuş verilerini, veriler::hava_durumu verileriyle birleştirmek için, orijin değişkeniyle birlikte kullanılabilir"
+    desc: "POSIXct formatında planlanan uçuş tarihi ve saati. Uçuş verilerini, \\code{\\link{hava_durumu}} verileriyle birleştirmek için, orijin değişkeniyle birlikte kullanılabilir"
 help:
   name: uçuşlar
   alias: uçuşlar

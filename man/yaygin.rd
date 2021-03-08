@@ -10,6 +10,6 @@
 \item{n_yıl}{Toplam model-yıl adedi}
 }}
 \usage{yaygın}
-\description{Bu modeller en az 10 yıllık veriye sahiptir. Bu veri kümesi, veriler::taşıtlar ile birleştirilerek (left-join), gözlem sayısını daha elverişli bir seviyeye çekmek için tasarlanmıştır.}
+\description{Bu modeller en az 10 yıllık veriye sahiptir. Bu veri kümesi, \code{\link{taşıtlar}} ile birleştirilerek (left-join), gözlem sayısını daha elverişli bir seviyeye çekmek için tasarlanmıştır.}
 \seealso{\code{\link[fueleconomy]{common}}}
 \keyword{datasets}

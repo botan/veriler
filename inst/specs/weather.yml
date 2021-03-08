@@ -4,7 +4,7 @@ df:
 variables:
   origin:
     trans: orijin
-    desc: "Meteoroloji istasyonu. Bu değişken, veriler::uçuşlar veri tablosu ile birleştirme işlemi için kullanılabilir"
+    desc: "Meteoroloji istasyonu. Bu değişken, \\code{\\link{uçuşlar}} verisi ile birleştirme işlemi için kullanılabilir"
   year:
     trans: yıl
     desc: "Kayıt tarihi (yıl)"

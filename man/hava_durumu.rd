@@ -4,7 +4,7 @@
 \title{Saatlik hava durumu verisi}
 \format{26.115 satır ve 15 sütundan oluşan bir data.frame
 \describe{
-\item{orijin}{Meteoroloji istasyonu. Bu değişken, veriler::uçuşlar veri tablosu ile birleştirme işlemi için kullanılabilir}
+\item{orijin}{Meteoroloji istasyonu. Bu değişken, \code{\link{uçuşlar}} verisi ile birleştirme işlemi için kullanılabilir}
 \item{yıl}{Kayıt tarihi (yıl)}
 \item{ay}{Kayıt tarihi (ay)}
 \item{gün}{Kayıt tarihi (gün)}

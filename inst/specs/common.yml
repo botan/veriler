@@ -18,6 +18,6 @@ help:
   name: yaygın
   alias: yaygın
   title:  Yaygın taşıt modelleri
-  description: "Bu modeller en az 10 yıllık veriye sahiptir. Bu veri kümesi, veriler::taşıtlar ile birleştirilerek (left-join), gözlem sayısını daha elverişli bir seviyeye çekmek için tasarlanmıştır."
+  description: "Bu modeller en az 10 yıllık veriye sahiptir. Bu veri kümesi, \\code{\\link{taşıtlar}} ile birleştirilerek (left-join), gözlem sayısını daha elverişli bir seviyeye çekmek için tasarlanmıştır."
   usage: yaygın
   format: 347 satır ve 4 sütundan oluşan bir tibble
