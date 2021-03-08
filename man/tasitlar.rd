@@ -4,7 +4,7 @@
 \title{Taşıtların yakıt ekonomileri}
 \format{33442 satır ve 12 sütundan oluşan bir tibble
 \describe{
-\item{FALSE}{Özgün EPA numarası}
+\item{no}{Özgün EPA numarası}
 \item{üretici}{Üretici}
 \item{model}{Model adı}
 \item{yıl}{Model yılı}

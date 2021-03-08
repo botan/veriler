@@ -3,7 +3,7 @@ df:
   name: tasitlar
 variables:
   id:
-    trans: no
+    trans: "no"
     desc: "Özgün EPA numarası"
   make:
     trans: üretici
