@@ -1,0 +1,407 @@
+df:
+  source: tidyr::who
+  name: dso
+variables:
+  country:
+    trans: ülke
+    desc: "Ülke adı"
+    values:
+      Afghanistan: Afganistan
+      Albania: Arnavutluk
+      Algeria: Cezayir
+      American Samoa: Amerikan Samoası
+      Andorra: Andorra
+      Angola: Angola
+      Anguilla: Anguila
+      Argentina: Arjantin
+      Armenia: Ermenistan
+      Aruba: Aruba
+      Australia: Avustralya
+      Austria: Avusturya
+      Azerbaijan: Azerbaycan
+      Bahamas: Bahamalar
+      Bahrain: Bahreyn
+      Bangladesh: Bangladeş
+      Barbados: Barbados
+      Belarus: Beyaz Rusya
+      Belgium: Belçika
+      Belize: Belize
+      Benin: Benin
+      Bermuda: Bermuda
+      Bolivia (Plurinational State of): Bolivya
+      Bosnia and Herzegovina: Bosna Hersek
+      Bonaire, Saint Eustatius and Saba: Karayip Hollandası
+      Botswana: Botsvana
+      Brazil: Brezilya
+      British Virgin Islands: Britanya Virjin Adaları
+      Brunei Darussalam: Brunei
+      Bulgaria: Bulgaristan
+      Burkina Faso: Burkina Faso
+      Burundi: Burundi
+      Bhutan: Butan
+      Cabo Verde: Yeşil Burun Adaları
+      Cayman Islands: Cayman Adaları
+      Cambodia: Kamboçya
+      Cameroon: Kamerun
+      Canada: Kanada
+      Central African Republic: Orta Afrika Cumhuriyeti
+      Chad: Çad
+      Chile: Şili
+      China, Macao SAR: Makao, Çin
+      Colombia: Kolombiya
+      Comoros: Komorlar
+      Congo: Kongo Cumhuriyeti
+      Cook Islands: Cook Adaları
+      Costa Rica: Kosta Rika
+      Cote d'Ivoire: Fildişi Sahili
+      Croatia: Hırvatistan
+      Cuba: Küba
+      Curacao: Curaçao
+      Cyprus: Kıbrıs
+      Czech Republic: Çekya
+      Democratic Republic of the Congo: Demokratik Kongo Cumhuriyeti
+      Denmark: Danimarka
+      Djibouti: Cibuti
+      Dominica: Dominika
+      Dominican Republic: Dominik Cumhuriyeti
+      Ecuador: Ekvador
+      Egypt: Mısır
+      El Salvador: El Salvador
+      Equatorial Guinea: Ekvator Ginesi
+      Eritrea: Eritre
+      Estonia: Estonya
+      Ethiopia: Etiyopya
+      Fiji: Fiji
+      Finland: Finlandiya
+      France: Fransa
+      French Polynesia: Fransız Polinezyası
+      Gabon: Gabon
+      Gambia: Gambiya
+      Georgia: Gürcistan
+      Germany: Almanya
+      Ghana: Gana
+      Greece: Yunanistan
+      Greenland: Grönland
+      Grenada: Grenada
+      Guatemala: Guatemala
+      Guam: Guam
+      Guinea-Bissau: Gine-Bissau
+      Guyana: Guyana
+      Guinea: Gine
+      Haiti: Haiti
+      Honduras: Honduras
+      China, Hong Kong SAR: Hong Kong, Çin
+      Hungary: Macaristan
+      Iceland: İzlanda
+      India: Hindistan
+      Indonesia: Endonezya
+      Iran (Islamic Republic of): İran
+      Iraq: Irak
+      Ireland: İrlanda
+      Israel: İsrail
+      Italy: İtalya
+      Jamaica: Jamaika
+      Japan: Japonya
+      Jordan: Ürdün
+      Kazakhstan: Kazakistan
+      Kenya: Kenya
+      Democratic People's Republic of Korea: Kuzey Kore
+      Republic of Korea: Güney Kore
+      Kiribati: Kiribati
+      Kyrgyzstan: Kırgızistan
+      Kuwait: Kuveyt
+      Lao People's Democratic Republic: Laos
+      Latvia: Letonya
+      Lebanon: Lübnan
+      Lesotho: Lesotho
+      Liberia: Liberya
+      Libya: Libya
+      Lithuania: Litvanya
+      Luxembourg: Lüksemburg
+      Madagascar: Madagaskar
+      Malawi: Malavi
+      Malaysia: Malezya
+      Maldives: Maldivler
+      Mali: Mali
+      Malta: Malta
+      Marshall Islands: Marshall Adaları
+      Mauritania: Moritanya
+      Mauritius: Mauritius
+      Mexico: Meksika
+      Micronesia (Federated States of): Mikronezya
+      Mongolia: Moğolistan
+      Monaco: Monako
+      Montenegro: Karadağ
+      Montserrat: Montserrat
+      Morocco: Fas
+      Mozambique: Mozambik
+      Myanmar: Burma
+      Namibia: Namibya
+      Nauru: Nauru
+      Nepal: Nepal
+      Netherlands: Hollanda
+      Netherlands Antilles: Hollanda Antilleri
+      New Caledonia: Yeni Kaledonya
+      New Zealand: Yeni Zelanda
+      Nicaragua: Nikaragua
+      Niger: Nijer
+      Nigeria: Nijerya
+      Niue: Niue
+      Norway: Norveç
+      Northern Mariana Islands: Kuzey Mariana Adaları
+      Oman: Umman
+      Pakistan: Pakistan
+      Palau: Palau
+      Panama: Panama
+      Papua New Guinea: Papua Yeni Gine
+      Paraguay: Paraguay
+      Peru: Peru
+      Philippines: Filipinler
+      Poland: Polonya
+      Portugal: Portekiz
+      Puerto Rico: Porto Riko
+      Qatar: Katar
+      Republic of Moldova: Moldova
+      Romania: Romanya
+      Rwanda: Ruanda
+      Russian Federation: Rusya Federasyonu
+      Samoa: Samoa
+      Saint Kitts and Nevis: Saint Kitts ve Nevis
+      Saint Lucia: Saint Lucia
+      Saint Vincent and the Grenadines: Saint Vincent ve Grenadinler
+      Sao Tome and Principe: Sao Tome ve Principe
+      San Marino: San Marino
+      Saudi Arabia: Suudi Arabistan
+      Senegal: Senegal
+      Serbia & Montenegro: Sırbistan-Karadağ
+      Seychelles: Seyşeller
+      Sierra Leone: Sierra Leone
+      Singapore: Singapur
+      Sint Maarten (Dutch part): Sint Maarten
+      Slovakia: Slovakya
+      Slovenia: Slovenya
+      Solomon Islands: Solomon Adaları
+      Somalia: Somali
+      South Africa: Güney Afrika
+      South Sudan: Güney Sudan
+      Spain: İspanya
+      Sri Lanka: Sri Lanka
+      Sudan: Sudan
+      Suriname: Surinam
+      Swaziland: Esvatini
+      Sweden: İsveç
+      Switzerland: İsviçre
+      Syrian Arab Republic: Suriye
+      United Republic of Tanzania: Tanzanya
+      Tajikistan: Tacikistan
+      Thailand: Tayland
+      The Former Yugoslav Republic of Macedonia: Kuzey Makedonya
+      Timor-Leste: Doğu Timor
+      Togo: Togo
+      Trinidad and Tobago: Trinidad ve Tobago
+      Tokelau: Tokelau
+      Tonga: Tonga
+      Tunisia: Tunus
+      Turkey: Türkiye
+      Turkmenistan: Türkmenistan
+      Turks and Caicos Islands: Turks ve Caicos Adaları
+      Tuvalu: Tuvalu
+      Uganda: Uganda
+      United Arab Emirates: Birleşik Arap Emirlikleri
+      United Kingdom of Great Britain and Northern Ireland: Birleşik Krallık
+      United States of America: Amerika Birleşik Devletleri
+      US Virgin Islands: ABD Virjin Adaları
+      Uruguay: Uruguay
+      Uzbekistan: Özbekistan
+      Vanuatu: Vanuatu
+      Venezuela (Bolivarian Republic of): Venezuela
+      Viet Nam: Vietnam
+      Wallis and Futuna Islands: Wallis ve Futuna Adaları
+      West Bank and Gaza Strip: Batı Şeria ve Gazze
+      Yemen: Yemen
+      Zambia: Zambiya
+      Zimbabwe: Zimbabve
+  iso2:
+    trans: iso2
+    desc: "İki haneli ISO ülke kodu"
+  iso3:
+    trans: iso3
+    desc: "Üç haneli ISO ülke kodu"
+  year:
+    trans: yıl
+    desc: "Yıl"
+  new_sp_m014:
+    trans: yeni_byp_e014
+    desc: "Yeni vakalar, balgam yayması pozitif (byp), erkek (e), 0 - 14 yaş aralığı (014)"
+  new_sp_m1524:
+    trans: yeni_byp_e1524
+    desc: "Yeni vakalar, balgam yayması pozitif (byp), erkek (e), 15 - 24 yaş aralığı (1524)"
+  new_sp_m2534:
+    trans: yeni_byp_e2534
+    desc: "Yeni vakalar, balgam yayması pozitif (byp), erkek (e), 25 - 34 yaş aralığı (2534)"
+  new_sp_m3544:
+    trans: yeni_byp_e3544
+    desc: "Yeni vakalar, balgam yayması pozitif (byp), erkek (e), 35 - 44 yaş aralığı (3544)"
+  new_sp_m4554:
+    trans: yeni_byp_e4554
+    desc: "Yeni vakalar, balgam yayması pozitif (byp), erkek (e), 45 - 54 yaş aralığı (4554)"
+  new_sp_m5564:
+    trans: yeni_byp_e5564
+    desc: "Yeni vakalar, balgam yayması pozitif (byp), erkek (e), 55 - 64 yaş aralığı (5564)"
+  new_sp_m65:
+    trans: yeni_byp_e65
+    desc: "Yeni vakalar, balgam yayması pozitif (byp), erkek (e), 65 yaş üstü (65)"
+  new_sp_f014:
+    trans: yeni_byp_k014
+    desc: "Yeni vakalar, balgam yayması pozitif (byp), kadın (k), 0 - 14 yaş aralığı (014)"
+  new_sp_f1524:
+    trans: yeni_byp_k1524
+    desc: "Yeni vakalar, balgam yayması pozitif (byp), kadın (k), 15 - 24 yaş aralığı (1524)"
+  new_sp_f2534:
+    trans: yeni_byp_k2534
+    desc: "Yeni vakalar, balgam yayması pozitif (byp), kadın (k), 25 - 34 yaş aralığı (2534)"
+  new_sp_f3544:
+    trans: yeni_byp_k3544
+    desc: "Yeni vakalar, balgam yayması pozitif (byp), kadın (k), 35 - 44 yaş aralığı (3544)"
+  new_sp_f4554:
+    trans: yeni_byp_k4554
+    desc: "Yeni vakalar, balgam yayması pozitif (byp), kadın (k), 45 - 54 yaş aralığı (4554)"
+  new_sp_f5564:
+    trans: yeni_byp_k5564
+    desc: "Yeni vakalar, balgam yayması pozitif (byp), kadın (k), 55 - 64 yaş aralığı (5564)"
+  new_sp_f65:
+    trans: yeni_byp_k65
+    desc: "Yeni vakalar, balgam yayması pozitif (byp), kadın (k), 65 yaş üstü (65)"
+  new_sn_m014:
+    trans: yeni_byn_e014
+    desc: "Yeni vakalar, balgam yayması negatif (byn), erkek (e), 0 - 14 yaş aralığı (014)"
+  new_sn_m1524:
+    trans: yeni_byn_e1524
+    desc: "Yeni vakalar, balgam yayması negatif (byn), erkek (e), 15 - 24 yaş aralığı (1524)"
+  new_sn_m2534:
+    trans: yeni_byn_e2534
+    desc: "Yeni vakalar, balgam yayması negatif (byn), erkek (e), 25 - 34 yaş aralığı (2534)"
+  new_sn_m3544:
+    trans: yeni_byn_e3544
+    desc: "Yeni vakalar, balgam yayması negatif (byn), erkek (e), 35 - 44 yaş aralığı (3544)"
+  new_sn_m4554:
+    trans: yeni_byn_e4554
+    desc: "Yeni vakalar, balgam yayması negatif (byn), erkek (e), 45 - 54 yaş aralığı (4554)"
+  new_sn_m5564:
+    trans: yeni_byn_e5564
+    desc: "Yeni vakalar, balgam yayması negatif (byn), erkek (e), 55 - 64 yaş aralığı (5564)"
+  new_sn_m65:
+    trans: yeni_byn_e65
+    desc: "Yeni vakalar, balgam yayması negatif (byn), erkek (e), 65 yaş üstü (65)"
+  new_sn_f014:
+    trans: yeni_byn_k014
+    desc: "Yeni vakalar, balgam yayması negatif (byn), kadın (k), 0 - 14 yaş aralığı (014)"
+  new_sn_f1524:
+    trans: yeni_byn_k1524
+    desc: "Yeni vakalar, balgam yayması negatif (byn), kadın (k), 15 - 24 yaş aralığı (1524)"
+  new_sn_f2534:
+    trans: yeni_byn_k2534
+    desc: "Yeni vakalar, balgam yayması negatif (byn), kadın (k), 25 - 34 yaş aralığı (2534)"
+  new_sn_f3544:
+    trans: yeni_byn_k3544
+    desc: "Yeni vakalar, balgam yayması negatif (byn), kadın (k), 35 - 44 yaş aralığı (3544)"
+  new_sn_f4554:
+    trans: yeni_byn_k4554
+    desc: "Yeni vakalar, balgam yayması negatif (byn), kadın (k), 45 - 54 yaş aralığı (4554)"
+  new_sn_f5564:
+    trans: yeni_byn_k5564
+    desc: "Yeni vakalar, balgam yayması negatif (byn), kadın (k), 55 - 64 yaş aralığı (5564)"
+  new_sn_f65:
+    trans: yeni_byn_k65
+    desc: "Yeni vakalar, balgam yayması negatif (byn), kadın (k), 65 yaş üstü (65)"
+  new_ep_m014:
+    trans: yeni_ad_e014
+    desc: "Yeni vakalar, akciğer dışı (ad), erkek (e), 0 - 14 yaş aralığı (014)"
+  new_ep_m1524:
+    trans: yeni_ad_e1524
+    desc: "Yeni vakalar, akciğer dışı (ad), erkek (e), 15 - 24 yaş aralığı (1524)"
+  new_ep_m2534:
+    trans: yeni_ad_e2534
+    desc: "Yeni vakalar, akciğer dışı (ad), erkek (e), 25 - 34 yaş aralığı (2534)"
+  new_ep_m3544:
+    trans: yeni_ad_e3544
+    desc: "Yeni vakalar, akciğer dışı (ad), erkek (e), 35 - 44 yaş aralığı (3544)"
+  new_ep_m4554:
+    trans: yeni_ad_e4554
+    desc: "Yeni vakalar, akciğer dışı (ad), erkek (e), 45 - 54 yaş aralığı (4554)"
+  new_ep_m5564:
+    trans: yeni_ad_e5564
+    desc: "Yeni vakalar, akciğer dışı (ad), erkek (e), 55 - 64 yaş aralığı (5564)"
+  new_ep_m65:
+    trans: yeni_ad_e65
+    desc: "Yeni vakalar, akciğer dışı (ad), erkek (e), 65 yaş üstü (65)"
+  new_ep_f014:
+    trans: yeni_ad_k014
+    desc: "Yeni vakalar, akciğer dışı (ad), kadın (k), 0 - 14 yaş aralığı (014)"
+  new_ep_f1524:
+    trans: yeni_ad_k1524
+    desc: "Yeni vakalar, akciğer dışı (ad), kadın (k), 15 - 24 yaş aralığı (1524)"
+  new_ep_f2534:
+    trans: yeni_ad_k2534
+    desc: "Yeni vakalar, akciğer dışı (ad), kadın (k), 25 - 34 yaş aralığı (2534)"
+  new_ep_f3544:
+    trans: yeni_ad_k3544
+    desc: "Yeni vakalar, akciğer dışı (ad), kadın (k), 35 - 44 yaş aralığı (3544)"
+  new_ep_f4554:
+    trans: yeni_ad_k4554
+    desc: "Yeni vakalar, akciğer dışı (ad), kadın (k), 45 - 54 yaş aralığı (4554)"
+  new_ep_f5564:
+    trans: yeni_ad_k5564
+    desc: "Yeni vakalar, akciğer dışı (ad), kadın (k), 55 - 64 yaş aralığı (5564)"
+  new_ep_f65:
+    trans: yeni_ad_k65
+    desc: "Yeni vakalar, akciğer dışı (ad), kadın (k), 65 yaş üstü (65)"
+  newrel_m014:
+    trans: yeni_nüks_e014
+    desc: "Yeni nükseden vakalar, erkek (e), 0 - 14 yaş aralığı (014)"
+  newrel_m1524:
+    trans: yeni_nüks_e1524
+    desc: "Yeni nükseden vakalar, erkek (e), 15 - 24 yaş aralığı (1524)"
+  newrel_m2534:
+    trans: yeni_nüks_e2534
+    desc: "Yeni nükseden vakalar, erkek (e), 25 - 34 yaş aralığı (2534)"
+  newrel_m3544:
+    trans: yeni_nüks_e3544
+    desc: "Yeni nükseden vakalar, erkek (e), 35 - 44 yaş aralığı (3544)"
+  newrel_m4554:
+    trans: yeni_nüks_e4554
+    desc: "Yeni nükseden vakalar, erkek (e), 45 - 54 yaş aralığı (4554)"
+  newrel_m5564:
+    trans: yeni_nüks_e5564
+    desc: "Yeni nükseden vakalar, erkek (e), 55 - 64 yaş aralığı (5564)"
+  newrel_m65:
+    trans: yeni_nüks_e65
+    desc: "Yeni nükseden vakalar, erkek (e), 65 yaş üstü (65)"
+  newrel_f014:
+    trans: yeni_nüks_k014
+    desc: "Yeni nükseden vakalar, kadın (k), 0 - 14 yaş aralığı (014)"
+  newrel_f1524:
+    trans: yeni_nüks_k1524
+    desc: "Yeni nükseden vakalar, kadın (k), 15 - 24 yaş aralığı (1524)"
+  newrel_f2534:
+    trans: yeni_nüks_k2534
+    desc: "Yeni nükseden vakalar, kadın (k), 25 - 34 yaş aralığı (2534)"
+  newrel_f3544:
+    trans: yeni_nüks_k3544
+    desc: "Yeni nükseden vakalar, kadın (k), 35 - 44 yaş aralığı (3544)"
+  newrel_f4554:
+    trans: yeni_nüks_k4554
+    desc: "Yeni nükseden vakalar, kadın (k), 45 - 54 yaş aralığı (4554)"
+  newrel_f5564:
+    trans: yeni_nüks_k5564
+    desc: "Yeni nükseden vakalar, kadın (k), 55 - 64 yaş aralığı (5564)"
+  newrel_f65:
+    trans: yeni_nüks_k65
+    desc: "Yeni nükseden vakalar, kadın (k), 65 yaş üstü (65)"
+help:
+  name: dsö
+  alias: dsö
+  title: "Dünya Sağlık Örgütü tüberküloz verileri"
+  description: "Dünya Sağlık Örgütü Küresel Tüberküloz Raporu verilerinin bir alt kümesi."
+  usage: dsö
+  format: 7240 satır ve 60 sütundan oluşan bir tibble

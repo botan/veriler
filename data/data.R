@@ -44,3 +44,5 @@ delayedAssign('taşıtlar',
         eval(parse(file.path(system.file('scripts','tasitlar.txt', package = 'veriler')))))
 delayedAssign('hava_durumu',
         eval(parse(file.path(system.file('scripts','hava_durumu.txt', package = 'veriler')))))
+delayedAssign('dsö',
+        eval(parse(file.path(system.file('scripts','dso.txt', package = 'veriler')))))
