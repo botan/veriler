@@ -1,0 +1,26 @@
+df:
+  source: Lahman::Salaries
+  name: maaslar
+variables:
+  yearID:
+    trans: yıl
+    desc: "Yıl"
+  teamID:
+    trans: takım
+    desc: "Takım kodu (faktör)"
+  lgID:
+    trans: lig
+    desc: "Lig kodu (faktör)"
+  playerID:
+    trans: oyuncu
+    desc: "Oyuncu kodu"
+  salary:
+    trans: maaş
+    desc: "Dolar cinsinden maaş"
+help:
+  name: maaşlar
+  alias: maaşlar
+  title: "Maaşlar tablosu"
+  description: "Oyuncu maaşları verileri."
+  usage: maaşlar
+  format: 26.428 satır ve 5 sütundan oluşan bir data.frame
