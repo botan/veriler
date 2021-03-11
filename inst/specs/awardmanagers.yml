@@ -1,0 +1,35 @@
+df:
+  source: Lahman::AwardsManagers
+  name: oduller
+variables:
+  playerID:
+    trans: oyuncu
+    desc: "Özgün oyuncu (koç) kodu"
+  awardID:
+    trans: ödül
+    desc: "Kazanılan ödülün adı"
+    values:
+      BBWAA Manager of the Year: "BBWAA Yılın Koçu"
+      TSN Manager of the Year: "TSN Yılın Koçu"
+  yearID:
+    trans: yıl
+    desc: "Yıl"
+  lgID:
+    trans: lig
+    desc: "Lig kodu (faktör)"
+  tie:
+    trans: berabere
+    desc: "Berabere kalma durumu. Ödülü birden çok kişi birlikte kazandıysa \\code{E}, aksi taktirde \\code{H}"
+    values:
+      "Y": E
+      "N": H
+  notes:
+    trans: notlar
+    desc: "Ödülle ilgili notlar"
+help:
+  name: ödüller
+  alias: ödüller
+  title: "Takım koçları ödül tablosu"
+  description: "Takım koçlarının kazandığı ödüller"
+  usage: ödüller
+  format: 179 satır ve 6 sütundan oluşan bir data.frame
