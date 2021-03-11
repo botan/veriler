@@ -15,9 +15,9 @@
 \item{başlama}{Oyuna başlama sayısı}
 \item{tamamlama}{Oyuncunun başladığı oyunları tamamlama sayısı}
 \item{shutout}{Tek bir atıcının tam bir oyun atması ve rakip takımın bir tur atmasına izin vermemesi}
-\item{saves}{Bitime yakın oyuna giren atıcının galip durumu koruması}
-\item{IPouts}{Outs Pitched (innings pitched x 3)}
-\item{hits}{Hits}
+\item{save}{Bitime yakın oyuna giren atıcının galip durumu koruması}
+\item{ip_outs}{Outs Pitched (innings pitched x 3)}
+\item{hit}{Vurucunun topu uygun alana vurduktan sonra birinci bölgeye başarıyla uşaması}
 \item{earned_rounds}{Atıcı hatası nedeniyle kazanılan koşular}
 \item{home_run}{Vurucunun topu oyun alanı dışına yollama sayısı}
 \item{walk}{Atıcının dört defa vurucunun vuruş bölgesi dışına atış yapması nedeniyle vurucunun birinci kaleye yürüme hakkı kazanması}
@@ -33,7 +33,7 @@
 \item{koşular}{Atıcıya karşı yapılan koşu sayısı}
 \item{sacrifice_hits}{Kalelerde bulunan koşucuların ilerlemesi için bilerek bunting vurma sayısı}
 \item{sacrifice_flies}{Üçüncü kalede bulunan koşucunun başlangıç kalesine dönerek sayı alabilmesi uğruna topu olabildiğince uzağa vurma sayısı}
-\item{double_play}{Defans oyuncularının ofans oyuncularını art arda dışarıda bırakması}
+\item{double_play}{Savunma oyuncularının hücum oyuncularını art arda dışarıda bırakması}
 }}
 \usage{atışlar}
 \description{Atış istatistikleri}

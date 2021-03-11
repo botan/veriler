@@ -29,10 +29,11 @@ remotes::install_github("botan/veriler")
 | anket           | General Social Survey (GSS) araştırmasından kategorik değişken örnekleri       | forcats      | gss\_cat     |
 | yaygın          | Yaygın taşıt modelleri                                                         | fueleconomy  | common       |
 | taşıtlar        | Taşıtların yakıt ekonomileri                                                   | fueleconomy  | vehicles     |
-| gapminder\_tr   | Gapminder verileri.                                                            | gapminder    | gapminder    |
+| gapminder\_tr   | Gapminder verileri                                                             | gapminder    | gapminder    |
 | elmaslar        | 50 bin adetten fazla yuvarlak kesim elmasın fiyatları                          | ggplot2      | diamonds     |
 | miller          | 38 popüler otomobil modeli için 1999’dan 2008’e kadar yakıt ekonomisi verileri | ggplot2      | mpg          |
 | başkanlık       | Eisenhower’dan Obama’ya 11 başkanın dönemleri                                  | ggplot2      | presidential |
+| savunmalar      | Savunma istatistikleri tablosu                                                 | Lahman       | Fielding     |
 | koçlar          | Takım koçları tablosu                                                          | Lahman       | Managers     |
 | kişiler         | Kişiler tablosu                                                                | Lahman       | People       |
 | atışlar         | Atış istatistikleri tablosu                                                    | Lahman       | Pitching     |

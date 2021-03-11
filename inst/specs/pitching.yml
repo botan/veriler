@@ -36,14 +36,14 @@ variables:
     trans: shutout
     desc: "Tek bir atıcının tam bir oyun atması ve rakip takımın bir tur atmasına izin vermemesi"
   SV:
-    trans: saves
+    trans: save
     desc: "Bitime yakın oyuna giren atıcının galip durumu koruması"
   IPouts:
-    trans: IPouts
+    trans: ip_outs
     desc: "Outs Pitched (innings pitched x 3)"
   H:
-    trans: hits
-    desc: "Hits"
+    trans: hit
+    desc: "Vurucunun topu uygun alana vurduktan sonra birinci bölgeye başarıyla uşaması"
   ER:
     trans: earned_rounds
     desc: "Atıcı hatası nedeniyle kazanılan koşular"
@@ -91,7 +91,7 @@ variables:
     desc: "Üçüncü kalede bulunan koşucunun başlangıç kalesine dönerek sayı alabilmesi uğruna topu olabildiğince uzağa vurma sayısı"
   GIDP:
     trans: double_play
-    desc: "Defans oyuncularının ofans oyuncularını art arda dışarıda bırakması"
+    desc: "Savunma oyuncularının hücum oyuncularını art arda dışarıda bırakması"
 help:
   name: atışlar
   alias: atışlar

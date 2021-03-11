@@ -1,7 +1,7 @@
 \docType{data}
 \name{gapminder_tr}
 \alias{gapminder_tr}
-\title{Gapminder verileri.}
+\title{Gapminder verileri}
 \format{1.704 satır ve 6 sütundan oluşan bir tibble
 \describe{
 \item{ülke}{Ülke adları (142 faktör)}

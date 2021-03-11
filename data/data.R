@@ -12,6 +12,8 @@ delayedAssign('elmaslar',
         eval(parse(file.path(system.file('scripts','elmaslar.txt', package = 'veriler')))))
 delayedAssign('old_faithful',
         eval(parse(file.path(system.file('scripts','old_faithful.txt', package = 'veriler')))))
+delayedAssign('savunmalar',
+        eval(parse(file.path(system.file('scripts','savunmalar.txt', package = 'veriler')))))
 delayedAssign('uçuşlar',
         eval(parse(file.path(system.file('scripts','ucuslar.txt', package = 'veriler')))))
 delayedAssign('gapminder_tr',

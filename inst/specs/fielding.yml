@@ -1,0 +1,65 @@
+df:
+  source: Lahman::Fielding
+  name: savunmalar
+variables:
+  playerID:
+    trans: oyuncu
+    desc: "Özgün oyuncu kodu"
+  yearID:
+    trans: yıl
+    desc: "Yıl"
+  stint:
+    trans: takım_sırası
+    desc: "Oyuncunun bir sezon içinde takımlar arası yaptığı geçiş sayısı"
+  teamID:
+    trans: takım
+    desc: "Takım kodu (faktör)"
+  lgID:
+    trans: lig
+    desc: "Lig kodu (faktör) (AA, AL, FL, NL, PL, UA)"
+  POS:
+    trans: mevki
+    desc: "Savunma oyuncusunun mevkisi"
+  G:
+    trans: oyun
+    desc: "Oyun sayısı"
+  GS:
+    trans: başlama
+    desc: "Oyuna başlama sayısı"
+  InnOuts:
+    trans: oyun_süresi
+    desc: "Sahada kaldığı süre"
+  PO:
+    trans: putout
+    desc: "Oyundan çıkarma"
+  A:
+    trans: asist
+    desc: "Asist sayısı"
+  E:
+    trans: hata
+    desc: "Oyuncu tarafından yapılan kural hatası sayısı"
+  DP:
+    trans: double_play
+    desc: "Savunma oyuncularının hücum oyuncularını art arda dışarıda bırakması"
+  PB:
+    trans: kaçan_top
+    desc: "Tutucunun başarısız olduğu, tutamadığı top sayısı"
+  WP:
+    trans: karavana
+    desc: "Atıcının topu doğru bölgeye fırlatamadığı atış sayısı"
+  SB:
+    trans: kale_çalma
+    desc: "Tutucuların rakipten kale çalma sayısı"
+  CS:
+    trans: yakalanma
+    desc: "Kale çalerken yakalanma sayısı"
+  ZR:
+    trans: bölge_notu
+    desc: "Savunmacının bölgelere göre kaç koşuyu engellediğini gösteren genel bir başarı ölçüsü"
+help:
+  name: savunmalar
+  alias: savunmalar
+  title: "Savunma istatistikleri tablosu"
+  description: "Savunma istatistikleri"
+  usage: savunmalar
+  format: 140.921 satır ve 18 sütundan oluşan bir data.frame

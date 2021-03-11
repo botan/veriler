@@ -172,7 +172,7 @@ variables:
 help:
   name: gapminder_tr
   alias: gapminder_tr
-  title: "Gapminder verileri."
+  title: "Gapminder verileri"
   description: "Ülkelere göre beklenen yaşam süresi, kişi başına GSYİH ve nüfus hakkındaki Gapminder verileri."
   usage: gapminder_tr
   format: 1.704 satır ve 6 sütundan oluşan bir tibble
