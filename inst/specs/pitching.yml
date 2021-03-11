@@ -1,6 +1,6 @@
 df:
   source: Lahman::Pitching
-  name: atislar
+  name: atis
 variables:
   playerID:
     trans: oyuncu
@@ -93,9 +93,9 @@ variables:
     trans: double_play
     desc: "Savunma oyuncularının hücum oyuncularını art arda dışarıda bırakması"
 help:
-  name: atışlar
-  alias: atışlar
+  name: atış
+  alias: atış
   title: "Atış istatistikleri tablosu"
   description: "Atış istatistikleri"
-  usage: atışlar
+  usage: atış
   format: 46.699 satır ve 30 sütundan oluşan bir data.frame

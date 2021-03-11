@@ -1,6 +1,6 @@
 df:
   source: Lahman::Fielding
-  name: savunmalar
+  name: savunma
 variables:
   playerID:
     trans: oyuncu
@@ -57,9 +57,9 @@ variables:
     trans: bölge_notu
     desc: "Savunmacının bölgelere göre kaç koşuyu engellediğini gösteren genel bir başarı ölçüsü"
 help:
-  name: savunmalar
-  alias: savunmalar
+  name: savunma
+  alias: savunma
   title: "Savunma istatistikleri tablosu"
   description: "Savunma istatistikleri"
-  usage: savunmalar
+  usage: savunma
   format: 140.921 satır ve 18 sütundan oluşan bir data.frame

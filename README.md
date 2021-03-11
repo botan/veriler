@@ -33,10 +33,10 @@ remotes::install_github("botan/veriler")
 | elmaslar        | 50 bin adetten fazla yuvarlak kesim elmasın fiyatları                          | ggplot2      | diamonds     |
 | miller          | 38 popüler otomobil modeli için 1999’dan 2008’e kadar yakıt ekonomisi verileri | ggplot2      | mpg          |
 | başkanlık       | Eisenhower’dan Obama’ya 11 başkanın dönemleri                                  | ggplot2      | presidential |
-| savunmalar      | Savunma istatistikleri tablosu                                                 | Lahman       | Fielding     |
+| savunma         | Savunma istatistikleri tablosu                                                 | Lahman       | Fielding     |
 | koçlar          | Takım koçları tablosu                                                          | Lahman       | Managers     |
 | kişiler         | Kişiler tablosu                                                                | Lahman       | People       |
-| atışlar         | Atış istatistikleri tablosu                                                    | Lahman       | Pitching     |
+| atış            | Atış istatistikleri tablosu                                                    | Lahman       | Pitching     |
 | maaşlar         | Maaşlar tablosu                                                                | Lahman       | Salaries     |
 | atmosfer        | Atmosferik veriler                                                             | nasaweather  | atmos        |
 | havayolları     | Havayolu adları                                                                | nycflights13 | airlines     |
