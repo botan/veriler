@@ -4,7 +4,7 @@
 \title{Atış istatistikleri tablosu}
 \format{46.699 satır ve 30 sütundan oluşan bir data.frame
 \describe{
-\item{oyuncu}{Oyuncu kodu}
+\item{oyuncu}{Özgün oyuncu kodu}
 \item{yıl}{Yıl}
 \item{takım_sırası}{Oyuncunun bir sezon içinde takımlar arası yaptığı geçiş sayısı}
 \item{takım}{Takım kodu (faktör)}

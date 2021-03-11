@@ -7,7 +7,7 @@
 \item{yıl}{Yıl}
 \item{takım}{Takım kodu (faktör)}
 \item{lig}{Lig kodu (faktör)}
-\item{oyuncu}{Oyuncu kodu}
+\item{oyuncu}{Özgün oyuncu kodu}
 \item{maaş}{Dolar cinsinden maaş}
 }}
 \usage{maaşlar}

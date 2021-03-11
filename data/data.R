@@ -24,6 +24,8 @@ delayedAssign('miller',
         eval(parse(file.path(system.file('scripts','miller.txt', package = 'veriler')))))
 delayedAssign('mt_arabalar',
         eval(parse(file.path(system.file('scripts','mt_arabalar.txt', package = 'veriler')))))
+delayedAssign('kişiler',
+        eval(parse(file.path(system.file('scripts','kisiler.txt', package = 'veriler')))))
 delayedAssign('atışlar',
         eval(parse(file.path(system.file('scripts','atislar.txt', package = 'veriler')))))
 delayedAssign('uçaklar',

@@ -1,0 +1,97 @@
+df:
+  source: Lahman::People
+  name: kisiler
+variables:
+  playerID:
+    trans: oyuncu
+    desc: "Özgün oyuncu kodu"
+  birthYear:
+    trans: doğum_yılı
+    desc: "Oyuncunun doğduğu yıl"
+  birthMonth:
+    trans: doğum_ayı
+    desc: "Oyuncunun doğduğu ay"
+  birthDay:
+    trans: doğum_günü
+    desc: "Oyuncunun doğduğu gün"
+  birthCountry:
+    trans: doğduğu_ülke
+    desc: "Oyuncunun doğduğu ülke"
+  birthState:
+    trans: doğduğu_eyalet
+    desc: "Oyuncunun doğduğu eyalet"
+  birthCity:
+    trans: doğduğu_şehir
+    desc: "Oyuncunun doğduğu şehir"
+  deathYear:
+    trans: ölüm_yılı
+    desc: "Oyuncunun öldüğü yıl"
+  deathMonth:
+    trans: ölüm_ayı
+    desc: "Oyuncunun öldüğü ay"
+  deathDay:
+    trans: ölüm_günü
+    desc: "Oyuncunun öldüğü gün"
+  deathCountry:
+    trans: öldüğü_ülke
+    desc: "Oyuncunun öldüğü ülke"
+  deathState:
+    trans: öldüğü_eyalet
+    desc: "Oyuncunun öldüğü eyalet"
+  deathCity:
+    trans: öldüğü_şehir
+    desc: "Oyuncunun öldüğü şehir"
+  nameFirst:
+    trans: adı
+    desc: "Oyuncunun adı"
+  nameLast:
+    trans: soyadı
+    desc: "Oyuncunun soyadı"
+  nameGiven:
+    trans: tam_adı
+    desc: "Oyuncunun adı ve göbek adı"
+  weight:
+    trans: libre
+    desc: "Oyuncunun libre cinsinden vücut ağırlığı"
+  height:
+    trans: boy
+    desc: "Oyuncunun fit ve inç cinsinden boy uzunluğu"
+  bats:
+    trans: vuruş_eli
+    desc: "Oyuncunun vuruş yaparken kullandığı el"
+    values:
+      R: Sağ
+      L: Sol
+      B: Çift
+  throws:
+    trans: atış_eli
+    desc: "Oyuncunun atış yaparken kullandığı el"
+    values:
+      R: Sağ
+      L: Sol
+      S: Çift
+  debut:
+    trans: ilk_oyun_tarihi
+    desc: "Birinci ligdeki ilk oyununun tarihi"
+  finalGame:
+    trans: son_oyun_tarihi
+    desc: "Birinci ligdeki son oyununun tarihi (devam ediyorsa NA)"
+  retroID:
+    trans: retro_no
+    desc: "Retrosheet adresinde kullanılan oyuncu kodu \\link{retrosheet.org}"
+  bbrefID:
+    trans: bbref_no
+    desc: "Baseball Reference adresinde kullanılan oyuncu kodu \\link{baseball-reference.com}"
+  deathDate:
+    trans: ölüm_tarihi
+    desc: "Oyuncunun yyyy-aa-gg formatında ölüm tarihi"
+  birthDate:
+    trans: doğum_tarihi
+    desc: "Oyuncunun yyyy-aa-gg formatında doğum tarihi"
+help:
+  name: kişiler
+  alias: kişiler
+  title: "Kişiler tablosu"
+  description: "Oyuncu isimleri, doğum tarihleri ve biyografik bilgiler. Bu dosya, \\code{\\link{vuruşlar}}, \\code{\\link{atışlar}} vd. içerisindeki oyuncular hakkında \\code{oyuncu} kodları yardımıyla daha fazla bilgi edinmek için kullanılabilir."
+  usage: kişiler
+  format: 19.617 satır ve 26 sütundan oluşan bir data.frame

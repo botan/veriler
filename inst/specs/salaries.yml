@@ -13,7 +13,7 @@ variables:
     desc: "Lig kodu (faktör)"
   playerID:
     trans: oyuncu
-    desc: "Oyuncu kodu"
+    desc: "Özgün oyuncu kodu"
   salary:
     trans: maaş
     desc: "Dolar cinsinden maaş"
