@@ -20,6 +20,8 @@ delayedAssign('anket',
         eval(parse(file.path(system.file('scripts','anket.txt', package = 'veriler')))))
 delayedAssign('süsen',
         eval(parse(file.path(system.file('scripts','susen.txt', package = 'veriler')))))
+delayedAssign('koçlar',
+        eval(parse(file.path(system.file('scripts','koclar.txt', package = 'veriler')))))
 delayedAssign('miller',
         eval(parse(file.path(system.file('scripts','miller.txt', package = 'veriler')))))
 delayedAssign('mt_arabalar',

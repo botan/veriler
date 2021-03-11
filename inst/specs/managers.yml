@@ -1,0 +1,44 @@
+df:
+  source: Lahman::Managers
+  name: koclar
+variables:
+  playerID:
+    trans: oyuncu
+    desc: "Özgün oyuncu kodu"
+  yearID:
+    trans: yıl
+    desc: "Yıl"
+  teamID:
+    trans: takım
+    desc: "Takım kodu (faktör)"
+  lgID:
+    trans: lig
+    desc: "Lig kodu (faktör) (AA, AL, FL, NL, PL, UA)"
+  inseason:
+    trans: koçluk_sırası
+    desc: "Koçluk sıralamasındaki yeri. Takımı tüm sezon tek başına yönetirse 0. Aksi takdirde, koçun yönetim sıralamasında nerede göründüğünü gösterir (birinci koç için 1, ikinci koç için 2 vs.)"
+  G:
+    trans: yönetilen_oyun
+    desc: "Yönettiği oyun sayısı"
+  W:
+    trans: galibiyet
+    desc: "Galibiyet sayısı"
+  L:
+    trans: mağlubiyet
+    desc: "Mağlubiyet sayısı"
+  rank:
+    trans: sıralama
+    desc: "Yıl sonu elde edilen takım sıralaması"
+  plyrMgr:
+    trans: oyuncu_koç
+    desc: "Koçun aynı anda hem takımı yönetip hem de sahada oyuncu olması faktörü. \\code{E} evet, \\code{H} hayır"
+    values:
+      "Y": E
+      "N": H
+help:
+  name: koçlar
+  alias: koçlar
+  title: "Takım koçları tablosu"
+  description: "Takım koçlarının başında olduğu takımlar hakkında bilgiler ve bu takımlar için yıllara göre bazı temel istatistikler."
+  usage: koçlar
+  format: 3.504 satır ve 10 sütundan oluşan bir data.frame
