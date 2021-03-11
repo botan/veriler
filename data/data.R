@@ -6,6 +6,8 @@ delayedAssign('atmosfer',
         eval(parse(file.path(system.file('scripts','atmosfer.txt', package = 'veriler')))))
 delayedAssign('bebek_isimleri',
         eval(parse(file.path(system.file('scripts','bebek_isimleri.txt', package = 'veriler')))))
+delayedAssign('vuruş',
+        eval(parse(file.path(system.file('scripts','vurus.txt', package = 'veriler')))))
 delayedAssign('yaygın',
         eval(parse(file.path(system.file('scripts','yaygin.txt', package = 'veriler')))))
 delayedAssign('elmaslar',

@@ -43,7 +43,7 @@ variables:
     desc: "Outs Pitched (innings pitched x 3)"
   H:
     trans: hit
-    desc: "Vurucunun topu uygun alana vurduktan sonra birinci bölgeye başarıyla uşaması"
+    desc: "Vurucunun topu uygun alana vurduktan sonra birinci bölgeye başarıyla ulaşma sayısı"
   ER:
     trans: earned_rounds
     desc: "Atıcı hatası nedeniyle kazanılan koşular"
@@ -84,10 +84,10 @@ variables:
     trans: koşular
     desc: "Atıcıya karşı yapılan koşu sayısı"
   SH:
-    trans: sacrifice_hits
+    trans: sacrifice_hit
     desc: "Kalelerde bulunan koşucuların ilerlemesi için bilerek bunting vurma sayısı"
   SF:
-    trans: sacrifice_flies
+    trans: sacrifice_fly
     desc: "Üçüncü kalede bulunan koşucunun başlangıç kalesine dönerek sayı alabilmesi uğruna topu olabildiğince uzağa vurma sayısı"
   GIDP:
     trans: double_play

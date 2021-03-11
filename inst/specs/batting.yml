@@ -1,0 +1,77 @@
+df:
+  source: Lahman::Batting
+  name: vurus
+variables:
+  playerID:
+    trans: oyuncu
+    desc: "Özgün oyuncu kodu"
+  yearID:
+    trans: yıl
+    desc: "Yıl"
+  stint:
+    trans: takım_sırası
+    desc: "Oyuncunun bir sezon içinde takımlar arası yaptığı geçiş sayısı"
+  teamID:
+    trans: takım
+    desc: "Takım kodu (faktör)"
+  lgID:
+    trans: lig
+    desc: "Lig kodu (faktör) (AA, AL, FL, NL, PL, UA)"
+  G:
+    trans: oyun
+    desc: "Oyuncunun yer aldığı oyun sayısı"
+  AB:
+    trans: at_bat
+    desc: "Vurucunun sopa (bat) tuttuğu ve belirli koşulları sağladığı durumların sayısı"
+  R:
+    trans: koşu
+    desc: "Vurucunun kaleye ulaşarak aldığı sayılar"
+  H:
+    trans: hit
+    desc: "Vurucunun topu uygun alana vurduktan sonra birinci bölgeye başarıyla ulaşma sayısı"
+  X2B:
+    trans: çifte_vuruş
+    desc: "Vurucunun topu uygun alana vurduktan sonra ikinci bölgeye başarıyla ulaşma sayısı"
+  X3B:
+    trans: üçlü_vuruş
+    desc: "Vurucunun topu uygun alana vurduktan sonra üçüncü bölgeye başarıyla ulaşma sayısı"
+  HR:
+    trans: home_run
+    desc: "Vurucunun topu oyun alanı dışına yollama sayısı"
+  RBI:
+    trans: run_batted_in
+    desc: "Vurucunun takım skoruna yaptığı katkı"
+  SB:
+    trans: kale_çalma
+    desc: "Koşucuların rakipten kale çalma sayısı"
+  CS:
+    trans: yakalanma
+    desc: "Kale çalarken yakalanma sayısı"
+  BB:
+    trans: walk
+    desc: "Atıcının dört defa vurucunun vuruş bölgesi dışına atış yapması nedeniyle vurucunun birinci kaleye yürüme hakkı kazanması"
+  SO:
+    trans: strikeout
+    desc: "Atıcının yaptığı atışlar sonucunda, üç ıska ile vurucunun devre dışı kalması"
+  IBB:
+    trans: kasti_walk
+    desc: "Rakibe kasıtlı verilen walk"
+  HBP:
+    trans: vurucuya_isabet
+    desc: "Atıcının topu vurucunun vücuduna isabet ettirdiği atış sayısı"
+  SH:
+    trans: sacrifice_hit
+    desc: "Kalelerde bulunan koşucuların ilerlemesi için bilerek bunting vurma sayısı"
+  SF:
+    trans: sacrifice_fly
+    desc: "Üçüncü kalede bulunan koşucunun başlangıç kalesine dönerek sayı alabilmesi uğruna topu olabildiğince uzağa vurma sayısı"
+  GIDP:
+    trans: double_play
+    desc: "Savunma oyuncularının hücum oyuncularını art arda dışarıda bırakması"
+help:
+  name: vuruş
+  alias: vuruş
+  title: "Vuruş istatistikleri tablosu"
+  description: "Vuruş istatistikleri"
+  usage: vuruş
+  format: 105.861 satır ve 22 sütundan oluşan bir data.frame
