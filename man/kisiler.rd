@@ -26,12 +26,12 @@
 \item{atış_eli}{Oyuncunun atış yaparken kullandığı el}
 \item{ilk_oyun_tarihi}{Birinci ligdeki ilk oyununun tarihi}
 \item{son_oyun_tarihi}{Birinci ligdeki son oyununun tarihi (devam ediyorsa NA)}
-\item{retro_no}{Retrosheet adresinde kullanılan oyuncu kodu \link{retrosheet.org}}
-\item{bbref_no}{Baseball Reference adresinde kullanılan oyuncu kodu \link{baseball-reference.com}}
+\item{retro_no}{\href{https://www.retrosheet.org/}{Retrosheet} adresinde kullanılan oyuncu kodu}
+\item{bbref_no}{\href{https://www.baseball-reference.com/}{Baseball Reference} adresinde kullanılan oyuncu kodu}
 \item{ölüm_tarihi}{Oyuncunun yyyy-aa-gg formatında ölüm tarihi}
 \item{doğum_tarihi}{Oyuncunun yyyy-aa-gg formatında doğum tarihi}
 }}
 \usage{kişiler}
-\description{Oyuncu isimleri, doğum tarihleri ve biyografik bilgiler. Bu dosya, \code{\link{vuruşlar}}, \code{\link{atışlar}} vd. içerisindeki oyuncular hakkında \code{oyuncu} kodları yardımıyla daha fazla bilgi edinmek için kullanılabilir.}
+\description{Oyuncu isimleri, doğum tarihleri ve biyografik bilgiler. Bu dosya, \code{\link{vuruş}}, \code{\link{atış}} vd. içerisindeki oyuncular hakkında \code{oyuncu} kodları yardımıyla daha fazla bilgi edinmek için kullanılabilir.}
 \seealso{\code{\link[Lahman]{People}}}
 \keyword{datasets}

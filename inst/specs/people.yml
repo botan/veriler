@@ -78,10 +78,10 @@ variables:
     desc: "Birinci ligdeki son oyununun tarihi (devam ediyorsa NA)"
   retroID:
     trans: retro_no
-    desc: "Retrosheet adresinde kullanılan oyuncu kodu \\link{retrosheet.org}"
+    desc: "\\href{https://www.retrosheet.org/}{Retrosheet} adresinde kullanılan oyuncu kodu"
   bbrefID:
     trans: bbref_no
-    desc: "Baseball Reference adresinde kullanılan oyuncu kodu \\link{baseball-reference.com}"
+    desc: "\\href{https://www.baseball-reference.com/}{Baseball Reference} adresinde kullanılan oyuncu kodu"
   deathDate:
     trans: ölüm_tarihi
     desc: "Oyuncunun yyyy-aa-gg formatında ölüm tarihi"
@@ -92,6 +92,6 @@ help:
   name: kişiler
   alias: kişiler
   title: "Kişiler tablosu"
-  description: "Oyuncu isimleri, doğum tarihleri ve biyografik bilgiler. Bu dosya, \\code{\\link{vuruşlar}}, \\code{\\link{atışlar}} vd. içerisindeki oyuncular hakkında \\code{oyuncu} kodları yardımıyla daha fazla bilgi edinmek için kullanılabilir."
+  description: "Oyuncu isimleri, doğum tarihleri ve biyografik bilgiler. Bu dosya, \\code{\\link{vuruş}}, \\code{\\link{atış}} vd. içerisindeki oyuncular hakkında \\code{oyuncu} kodları yardımıyla daha fazla bilgi edinmek için kullanılabilir."
   usage: kişiler
   format: 19.617 satır ve 26 sütundan oluşan bir data.frame
