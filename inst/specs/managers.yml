@@ -4,7 +4,7 @@ df:
 variables:
   playerID:
     trans: oyuncu
-    desc: "Özgün oyuncu kodu"
+    desc: Özgün oyuncu kodu
   yearID:
     trans: yıl
     desc: "Yıl"

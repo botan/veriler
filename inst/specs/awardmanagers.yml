@@ -4,7 +4,7 @@ df:
 variables:
   playerID:
     trans: oyuncu
-    desc: "Özgün oyuncu (koç) kodu"
+    desc: Özgün oyuncu/koç kodu
   awardID:
     trans: ödül
     desc: "Kazanılan ödülün adı"

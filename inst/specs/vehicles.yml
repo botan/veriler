@@ -4,7 +4,7 @@ df:
 variables:
   id:
     trans: "no"
-    desc: "Özgün EPA numarası"
+    desc: Özgün EPA numarası
   make:
     trans: üretici
     desc: "Üretici"

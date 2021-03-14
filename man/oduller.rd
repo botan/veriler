@@ -4,7 +4,7 @@
 \title{Takım koçları ödül tablosu}
 \format{179 satır ve 6 sütundan oluşan bir data.frame
 \describe{
-\item{oyuncu}{Özgün oyuncu (koç) kodu}
+\item{oyuncu}{Özgün oyuncu/koç kodu}
 \item{ödül}{Kazanılan ödülün adı}
 \item{yıl}{Yıl}
 \item{lig}{Lig kodu (faktör)}

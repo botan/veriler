@@ -4,7 +4,7 @@ df:
 variables:
   name:
     trans: ad
-    desc: "Başkanın soyadı"
+    desc: Başkanın soyadı
   start:
     trans: başlangıç
     desc: "Başkanlığın başlangıç tarihi"

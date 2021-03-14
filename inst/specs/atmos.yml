@@ -4,7 +4,7 @@ df:
 variables:
   lat:
     trans: enlem
-    desc: "Ölçüm noktası. 113,8 - 56,2 Batı boylamları ve 36,2 Kuzey - 21,2 Güney enlemleri arasında, eşit aralıklı 24 x 24 mekansal grid"
+    desc: Ölçüm noktası. 113,8 - 56,2 Batı boylamları ve 36,2 Kuzey - 21,2 Güney enlemleri arasında, eşit aralıklı 24 x 24 mekansal grid
   long:
     trans: boylam
     desc: "Ölçüm noktası. 113,8 - 56,2 Batı boylamları ve 36,2 Kuzey - 21,2 Güney enlemleri arasında, eşit aralıklı 24 x 24 mekansal grid"

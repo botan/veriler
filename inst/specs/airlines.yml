@@ -4,7 +4,7 @@ df:
 variables:
   carrier:
     trans: havayolu_kodu
-    desc: "Havayolu şirketinin 2 harfli kısaltması"
+    desc: Havayolu şirketinin 2 harfli kısaltması
   name:
     trans: ad
     desc: "Havayolu şirketinin tam adı"

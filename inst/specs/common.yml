@@ -10,7 +10,7 @@ variables:
     desc: "Model"
   "n":
     trans: n
-    desc: "Model için toplam adet"
+    desc: Model için toplam adet
   years:
     trans: n_yıl
     desc: "Toplam model-yıl adedi"
