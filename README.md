@@ -4,6 +4,8 @@
 # veriler
 
 <!-- badges: start -->
+
+[![](https://img.shields.io/badge/devel%20version-0.0.0.9000-blue.svg)](https://github.com/botan/veriler)
 <!-- badges: end -->
 
 [R for Data Science](https://r4ds.had.co.nz/) kitabında kullanılan
@@ -14,8 +16,8 @@ verilerin Türkçe çevirilerini içerir.
 Paketi indirmek için:
 
 ``` r
-# install.packages("remotes")
-remotes::install_github("botan/veriler")
+# install.packages("devtools")
+devtools::install_github("botan/veriler")
 ```
 
 ## Çeviriler
@@ -59,10 +61,10 @@ remotes::install_github("botan/veriler")
 Basit bir örnek:
 
 ``` r
-library(tidyverse)
+library(ggplot2)
 library(veriler)
 
-glimpse(süsen)
+dplyr::glimpse(süsen)
 #> Rows: 150
 #> Columns: 5
 #> $ çanak_uzunluğu  <dbl> 5.1, 4.9, 4.7, 4.6, 5.0, 5.4, 4.6, 5.0, 4.4, 4.9, 5.4,…
@@ -89,7 +91,7 @@ ggplot(süsen, aes(çanak_uzunluğu, çanak_genişliği, colour = tür, shape = 
   )
 ```
 
-<img src="man/figures/README-example-1.png" width="90%" />
+![](man/figures/README-example-1.png)<!-- -->
 
 ## Dahili kodlar
 

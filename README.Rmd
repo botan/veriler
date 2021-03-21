@@ -10,23 +10,23 @@ knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
   fig.path = "man/figures/README-",
-  out.width = "90%",
+  # out.width = "90%",
   dpi = 300, 
   message = FALSE, 
   warning = FALSE
 )
 
-library(veriler)
-library(ggplot2)
-library(dplyr)
-library(purrr)
-library(stringr)
+`%>%` <- magrittr::`%>%`
 ```
 
 # veriler
 
 <!-- badges: start -->
-
+```{r, echo = FALSE, results='asis'}
+cat(
+  badger::badge_devel("botan/veriler", "blue")
+)
+```
 <!-- badges: end -->
 
 [R for Data Science](<https://r4ds.had.co.nz/>) kitabında kullanılan verilerin Türkçe çevirilerini içerir.
@@ -36,25 +36,25 @@ library(stringr)
 Paketi indirmek için:
 
 ```{r, eval = FALSE}
-# install.packages("remotes")
-remotes::install_github("botan/veriler")
+# install.packages("devtools")
+devtools::install_github("botan/veriler")
 ```
 
 ## Çeviriler
 
 ```{r, echo = FALSE}
 specs <- list.files("inst/specs")
-all <- map(file.path("inst", "specs", specs), yaml::read_yaml)
-sources <- map_chr(all, ~.x$df$source)
-pkgs <- tibble(
-  İsim = map_chr(all, ~.x$help$usage),
-  Başlık = map_chr(all, ~.x$help$title),
-  Paket = map_chr(strsplit(sources, "::"), ~.x[[1]]),
-  Veri = map_chr(strsplit(sources, "::"), ~.x[[2]])
+all <- purrr::map(file.path("inst", "specs", specs), yaml::read_yaml)
+sources <- purrr::map_chr(all, ~ .x$df$source)
+pkgs <- tibble::tibble(
+  İsim = purrr::map_chr(all, ~ .x$help$usage),
+  Başlık = purrr::map_chr(all, ~ .x$help$title),
+  Paket = purrr::map_chr(stringr::str_split(sources, "::"), ~ .x[[1]]),
+  Veri = purrr::map_chr(stringr::str_split(sources, "::"), ~ .x[[2]])
 )
 
 pkgs %>%
-  arrange(Paket, Veri) %>%
+  dplyr::arrange(Paket, Veri) %>% 
   knitr::kable()
 ```
 
@@ -63,10 +63,10 @@ pkgs %>%
 Basit bir örnek:
 
 ```{r example}
-library(tidyverse)
+library(ggplot2)
 library(veriler)
 
-glimpse(süsen)
+dplyr::glimpse(süsen)
 
 ggplot(süsen, aes(çanak_uzunluğu, çanak_genişliği, colour = tür, shape = tür)) +
   geom_point(size = 3.3, alpha = .77) +
